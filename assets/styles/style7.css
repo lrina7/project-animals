@@ -331,13 +331,13 @@ height: 2rem;
         margin-left: 4em;
     }
     .form__name-input {
-        width: 18em;
+        width: 20em;
     }
     .form__mail-input {
-        width: 18em;}
+        width: 20em;}
 
     .form__message-input {
-            width: 16em;
+        width: 18em;
         }
     .footer__contacts{
         grid-row: 2/3;
@@ -410,7 +410,7 @@ height: 2rem;
         width: 18em;}
 
     .form__message-input {
-            width: 16em;
+        width: 16em;
         }
     .footer__contacts{
         grid-row: 2/3;
@@ -428,6 +428,5 @@ height: 2rem;
     .footer__line{
         width: 85%; 
     }
-
 
 }
