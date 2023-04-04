@@ -1,779 +1,776 @@
- /* Стили 1го и 2го блоков НАЧАЛО Надежда */
- body {
-    max-width: 120.125em;
-    font-family: "Roboto", "Arial", sans-serif;
-  }
+/* Стили 1го и 2го блоков НАЧАЛО Надежда */
+body {
+  max-width: 120.125em;
+  font-family: "Roboto", "Arial", sans-serif;
+}
 
+.first-page-content {
+  max-width: 120.125em;
+  height: 58.75em;
+  background-image: url(../images/mountines.png);
+  overflow: hidden;
+}
+
+.nav__header {
+  display: flex;
+  max-width: 120.125em;
+  height: 5.88em;
+  align-items: center;
+  background-color: rgba(51, 51, 51, 1);
+}
+
+.nav__logo-header {
+  display: flex;
+  width: 37.5em;
+  padding-left: 9.34em;
+}
+
+.nav__links-header {
+  display: flex;
+  width: 42em;
+  justify-content: space-around;
+}
+
+.switcher {
+  display: flex;
+  width: 35.94em;
+  justify-content: flex-end;
+  padding-right: 6.25em;
+}
+
+.nav__menu_links {
+  color: rgba(254, 254, 254, 1);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #fefefe;
+}
+
+.nav__menu_links:hover {
+  color: #fefefe;
+  text-decoration: underline;
+}
+
+.menu__link-header1 {
+  font-weight: 900;
+}
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 54px;
+  height: 30px;
+  background: rgba(79, 79, 79, 1);
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background: rgba(27, 27, 27, 1);
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: rgba(79, 79, 79, 1);
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 130px;
+}
+
+.mainpage {
+  display: flex;
+}
+
+.social__mainpage {
+  display: flex;
+  align-items: end;
+  width: 9.74%;
+  height: 400px;
+}
+
+.mainpage__btn {
+  display: flex;
+  margin-top: -40px;
+  margin-left: 13em;
+  width: 21.77%;
+}
+
+.carousel__container {
+  display: flex;
+  width: 68.58%;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-left: 10.63em;
+  margin-top: -5px;
+}
+
+.first-page-content__title {
+  display: flex;
+  margin-top: 80px;
+  width: 793px;
+  height: 208px;
+  font-style: normal;
+  padding-left: 330px;
+  padding-top: 140px;
+  font-weight: 900;
+  font-size: 89px;
+  line-height: 104px;
+  color: #fefefe;
+}
+
+.carousel-item {
+  flex-shrink: 0;
+  width: 140px;
+  height: 203px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-right: 30px;
+  cursor: pointer;
+  -webkit-transition: 1000ms all;
+  transition: 1000ms all;
+  -webkit-transform-origin: center;
+  transform-origin: center left;
+  position: relative;
+}
+
+.carousel-item:hover ~ .carousel-item {
+  -webkit-transform: translate3d(120px, 0, 0);
+  transform: translate3d(180px, 0, 0);
+}
+
+.carousel__container:hover .carousel-item {
+  opacity: 0.9;
+}
+
+.carousel__container:hover .carousel-item:hover {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  opacity: 1;
+}
+
+.carousel-item__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.carousel-item__details {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(0, 0, 0, 0.9)),
+    to(rgba(0, 0, 0, 0))
+  );
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  opacity: 0;
+  -webkit-transition: 450ms opacity;
+  transition: 450ms opacity;
+  padding: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.carousel-item__details:hover {
+  opacity: 2;
+}
+
+.carousel-item__details .controls {
+  padding-bottom: 115px;
+}
+
+.button {
+  display: flex;
+  flex-shrink: 0;
+  width: 200px;
+  height: 35px;
+  align-items: center;
+  margin-top: 15px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  padding-left: 39px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(#4bd8b5, #49d6df);
+  border: none;
+  border-radius: 3px;
+}
+
+.img-button {
+  width: 32px;
+  height: 32px;
+}
+
+.text-button {
+  text-transform: uppercase;
+  padding-left: 10px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.about__animal {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+}
+
+.carousel-item-buttons {
+  display: flex;
+  width: 100%;
+}
+
+.button-transparent,
+.button-donate {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  text-decoration: none;
+  background: transparent;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-transparent {
+  color: #49d6df;
+}
+
+.button-donate {
+  padding-left: 5px;
+  color: #fff;
+}
+
+.button-transparent--img,
+.button-donate--img {
+  width: 12px;
+  height: 12px;
+  padding-right: 2px;
+}
+
+.slidecontainer {
+  display: flex;
+  width: 100%;
+}
+
+/* это класс,
+  который меняем под себя,
+  mainpage на свой уникальный блок или элемент. Все остальное не меняем :) */
+.slidecontainer__mainpage {
+  margin-top: -30px;
+  padding-left: 65%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 255px;
+  height: 5px;
+  background: #fff;
+  outline: none;
+  opacity: 0.4;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 30px;
+  height: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  list-style: none;
+}
+
+.social-icons a {
+  position: relative;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: background-color 0.9s ease-in-out;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* это класс,
+  который меняем под себя,
+  mainpage на свой уникальный блок или элемент. Все остальное не меняем. mainpage на footer, например и убираем flex-direction: column; :) */
+.social-icons__mainpage {
+  flex-direction: column;
+  padding-left: 130px;
+}
+
+@media screen and (min-width: 1201px) {
+  .menu__link-header7_img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 661px) and (max-width: 1200px) {
   .first-page-content {
-    max-width: 120.125em;
-    height: 58.75em;
-    background-image: url(../assets/images/mountines.png);
+    background-image: url(../images/mountines1200.png);
     overflow: hidden;
   }
 
   .nav__header {
-    display: flex;
-    max-width: 120.125em;
-    height: 5.88em;
-    align-items: center;
-    background-color: rgba(51, 51, 51, 1);
+    max-width: 1200px;
   }
 
   .nav__logo-header {
-    display: flex;
-    width: 37.5em;
-    padding-left: 9.34em;
+    width: 11em;
+    padding-left: 5em;
   }
 
   .nav__links-header {
-    display: flex;
-    width: 42em;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .switcher {
-    display: flex;
-    width: 35.94em;
+    width: 11em;
     justify-content: flex-end;
-    padding-right: 6.25em;
+    padding-right: 5em;
   }
 
-  .nav__menu_links {
-    color: rgba(254, 254, 254, 1);
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1em;
-    line-height: 1.2em;
-    color: #FEFEFE;
+  .menu__link-header7_img {
+    display: none;
   }
 
-  .nav__menu_links:hover {
-    color: #FEFEFE;
-    text-decoration: underline;
-  }
-
-  .menu__link-header1 {
-    font-weight: 900;
-  }
-
-  input[type=checkbox] {
-    height: 0;
-    width: 0;
-    visibility: hidden;
-  }
-
-  label {
-    cursor: pointer;
-    text-indent: -9999px;
-    width: 54px;
-    height: 30px;
-    background: rgba(79, 79, 79, 1);
-    display: block;
-    border-radius: 100px;
-    position: relative;
-  }
-
-  label:after {
-    content: '';
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 20px;
-    height: 20px;
-    background: rgba(27, 27, 27, 1);
-    border-radius: 90px;
-    transition: 0.3s;
-  }
-
-  input:checked+label {
-    background: rgba(79, 79, 79, 1);
-  }
-
-  input:checked+label:after {
-    left: calc(100% - 5px);
-    transform: translateX(-100%);
-  }
-
-  label:active:after {
-    width: 130px;
-  }
-
-  .mainpage {
-    display: flex;
-  }
-
-  .social__mainpage {
-    display: flex;
-    align-items: end;
-    width: 9.74%;
-    height: 400px;
+  .first-page-content__title {
+    padding-top: 100px;
+    padding-left: 150px;
+    font-size: 75px;
+    line-height: 85px;
   }
 
   .mainpage__btn {
-    display: flex;
-    margin-top: -40px;
-    margin-left: 13em;
-    width: 21.77%;
+    margin-left: 3.25em;
+    margin-top: -80px;
   }
 
   .carousel__container {
-    display: flex;
-    width: 68.58%;
-    justify-content: flex-end;
+    margin-top: 50px;
+    padding-left: 2em;
+  }
+
+  .carousel-item {
+    margin-right: 30px;
+  }
+
+  .carousel-item__4,
+  .carousel-item__5 {
+    display: none;
+  }
+
+  .carousel__container:hover .carousel-item:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+@media screen and (min-width: 661px) and (max-width: 930px) {
+  .first-page-content__title {
+    max-width: 500px;
+    padding-top: 15px;
+    padding-left: 120px;
+    font-size: 55px;
+    line-height: 85px;
+  }
+
+  .social__mainpage {
+    margin-left: -80px;
+    margin-top: 160px;
+  }
+
+  .carousel__container {
+    padding-top: 80px;
+    padding-left: 2.5em;
+    padding-right: 5em;
+  }
+
+  .carousel-item__details .controls {
+    padding-bottom: 170px;
+  }
+
+  .carousel-item {
+    width: 180px;
+    height: 261px;
+  }
+
+  .carousel-item__4,
+  .carousel-item__5 {
+    display: none;
+  }
+
+  .slidecontainer__mainpage {
+    padding-left: 35%;
+    margin-top: -70px;
+    padding-right: 20px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 536px) and (max-width: 660px) {
+  .first-page-content {
+    height: 926px;
+    background-image: url(../images/mountines1200.png);
+    overflow: hidden;
+  }
+
+  .nav__header {
+    max-width: 660px;
+  }
+
+  .nav__logo-header {
+    width: 100%;
+    padding-left: 1.5em;
+  }
+
+  .switcher {
+    width: 20em;
+    justify-content: space-between;
+    padding-right: 1.5em;
+  }
+
+  .nav__links-header {
+    display: none;
+  }
+
+  .first-page-content__title {
+    max-width: 550px;
     padding-top: 10px;
-    padding-left: 10.63em;
-    margin-top: -5px;
+    padding-left: 25px;
+    font-size: 55px;
+    line-height: 65px;
+  }
+
+  .mainpage__btn {
+    margin-left: 3em;
+    margin-top: -120px;
+  }
+
+  .social__mainpage {
+    margin-left: -80px;
+    margin-top: 120px;
+  }
+
+  .slidecontainer__mainpage {
+    padding-left: 35%;
+    margin-top: -10px;
+    padding-right: 20px;
+    width: 200px;
+  }
+
+  .carousel__container {
+    padding-top: 30px;
+    margin-top: 120px;
+    padding-left: 2em;
+  }
+
+  .carousel-item__details .controls {
+    padding-bottom: 135px;
+  }
+
+  .carousel-item {
+    width: 160px;
+    height: 223px;
+  }
+
+  .carousel-item__3,
+  .carousel-item__4,
+  .carousel-item__5 {
+    display: none;
+  }
+
+  .carousel__container:hover .carousel-item:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 535px) {
+  .first-page-content {
+    max-width: 535px;
+    height: 939px;
+    background-image: url(../images/mountines600.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .nav__links-header {
+    display: none;
+  }
+
+  .nav__header {
+    max-width: 535px;
+  }
+
+  .nav__logo-header {
+    width: 100%;
+    padding-left: 1.5em;
+  }
+
+  .switcher {
+    width: 20em;
+    justify-content: space-between;
+    padding-right: 1.5em;
+  }
+
+  .first-page-content__title {
+    max-width: 350px;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 55px;
+    line-height: 65px;
+  }
+
+  .social__mainpage {
+    margin-left: -80px;
+    margin-top: 135px;
+  }
+
+  .carousel__container {
+    padding-top: 30px;
+    margin-top: 120px;
+    padding-left: 2em;
+  }
+
+  .carousel__container:hover .carousel-item:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  .carousel-item__3,
+  .carousel-item__4,
+  .carousel-item__5 {
+    display: none;
+  }
+
+  .mainpage__btn {
+    margin-left: 2em;
+    margin-top: -50px;
+  }
+
+  .slidecontainer__mainpage {
+    padding-left: 45%;
+    margin-top: -35px;
+    padding-right: 20px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 420px) {
+  .first-page-content {
+    max-width: 420px;
+    height: 939px;
+    background-image: url(../images/mountines600.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .nav__links-header {
+    display: none;
+  }
+
+  .nav__header {
+    max-width: 420px;
+  }
+
+  .nav__logo-header {
+    width: 100%;
+    padding-left: 1.5em;
+  }
+
+  .switcher {
+    width: 20em;
+    justify-content: space-between;
+    padding-right: 1.5em;
+  }
+
+  .first-page-content__title {
+    max-width: 350px;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .social__mainpage {
+    display: none;
+  }
+
+  .carousel__container {
+    padding-top: 30px;
+    margin-top: 150px;
+    padding-left: 5em;
+  }
+
+  .carousel__container:hover .carousel-item:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  .carousel-item__details .controls {
+    padding-bottom: 110px;
+  }
+
+  .carousel-item__3,
+  .carousel-item__4,
+  .carousel-item__5 {
+    display: none;
+  }
+
+  .mainpage__btn {
+    margin-left: 2em;
+    margin-top: -50px;
+  }
+
+  .slidecontainer__mainpage {
+    padding-left: 30%;
+    margin-top: 130px;
+    padding-right: 20px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .first-page-content {
+    max-width: 399px;
+    height: 669px;
+    background-image: url(../images/mountines400.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .nav__links-header {
+    display: none;
+  }
+
+  .nav__header {
+    max-width: 399px;
+  }
+
+  .nav__logo-header {
+    width: 100%;
+    padding-left: 1.5em;
+  }
+
+  .switcher {
+    width: 20em;
+    justify-content: space-between;
+    padding-right: 1.5em;
   }
 
   .first-page-content__title {
     display: flex;
-    margin-top: 80px;
-    width: 793px;
-    height: 208px;
-    font-style: normal;
-    padding-left: 330px;
-    padding-top: 140px;
-    font-weight: 900;
-    font-size: 89px;
-    line-height: 104px;
-    color: #FEFEFE;
+    max-width: 300px;
+    padding-top: 1px;
+    padding-left: 25px;
+    font-size: 35px;
   }
 
-  .carousel-item {
-    flex-shrink: 0;
-    width: 140px;
-    height: 203px;
-    border-radius: 3px;
-    overflow: hidden;
-    margin-right: 30px;
-    cursor: pointer;
-    -webkit-transition: 1000ms all;
-    transition: 1000ms all;
-    -webkit-transform-origin: center;
-    transform-origin: center left;
-    position: relative;
+  .social__mainpage {
+    display: none;
   }
 
-  .carousel-item:hover~.carousel-item {
-    -webkit-transform: translate3d(120px, 0, 0);
-    transform: translate3d(180px, 0, 0);
-  }
-
-  .carousel__container:hover .carousel-item {
-    opacity: 0.9;
+  .carousel__container {
+    padding-top: 30px;
+    margin-top: 35px;
+    padding-left: 1.5em;
   }
 
   .carousel__container:hover .carousel-item:hover {
-    -webkit-transform: scale(2);
-    transform: scale(2);
-    opacity: 1;
-  }
-
-  .carousel-item__img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-
-  .carousel-item__details {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(rgba(0, 0, 0, 0.9)),
-        to(rgba(0, 0, 0, 0)));
-    background: linear-gradient(to top,
-        rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0) 100%);
-    opacity: 0;
-    -webkit-transition: 450ms opacity;
-    transition: 450ms opacity;
-    padding: 2px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  .carousel-item__details:hover {
-    opacity: 2;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
   }
 
   .carousel-item__details .controls {
-    padding-bottom: 115px;
-  }
-
-  .button {
-    display: flex;
-    flex-shrink: 0;
-    Width: 200px;
-    Height: 35px;
-    align-items: center;
-    margin-top: 15px;
-    padding-top: 12px;
-    padding-bottom: 11px;
-    padding-left: 39px;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-    background: linear-gradient(#4BD8B5, #49D6Df);
-    border: none;
-    border-radius: 3px;
-  }
-
-  .img-button {
-    Width: 32px;
-    Height: 32px;
-  }
-
-  .text-button {
-    text-transform: uppercase;
-    padding-left: 10px;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 21px;
+    padding-bottom: 45px;
   }
 
   .about__animal {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    color: #FFFFFF;
-
+    font-size: 9px;
   }
 
   .carousel-item-buttons {
     display: flex;
-    width: 100%;
-  }
-
-  .button-transparent,
-  .button-donate {
-    display: flex;
-    Height: 30px;
-    align-items: center;
-    text-decoration: none;
-    background: transparent;
-    border-radius: 3px;
-    font-weight: 500;
-    font-size: 8px;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .button-transparent {
-    color: #49D6Df;
-  }
-
-  .button-donate {
-    padding-left: 5px;
-    color: #fff;
-  }
-
-  .button-transparent--img,
-  .button-donate--img {
-    Width: 12px;
-    Height: 12px;
-    padding-right: 2px;
-  }
-
-  .slidecontainer {
-    display: flex;
-    width: 100%;
-  }
-
-  /* это класс,
-  который меняем под себя,
-  mainpage на свой уникальный блок или элемент. Все остальное не меняем :) */
-  .slidecontainer__mainpage {
-    margin-top: -30px;
-    padding-left: 65%;
-  }
-
-  .slider {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 255px;
-    height: 5px;
-    background: #fff;
-    outline: none;
-    opacity: 0.4;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-  }
-
-  .slider:hover {
-    opacity: 1;
-  }
-
-  .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 30px;
-    height: 10px;
-    background: #fff;
-    cursor: pointer;
-  }
-
-  .slider::-moz-range-thumb {
-    width: 30px;
-    height: 10px;
-    background: #fff;
-    cursor: pointer;
-  }
-
-
-  .social-icons {
-    display: flex;
-    list-style: none;
-  }
-
-  .social-icons a {
-    position: relative;
-    display: block;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    transition: background-color .9s ease-in-out;
-    width: 2rem;
-    height: 2rem;
-  }
-
-  /* это класс,
-  который меняем под себя,
-  mainpage на свой уникальный блок или элемент. Все остальное не меняем. mainpage на footer, например и убираем flex-direction: column; :) */
-  .social-icons__mainpage {
     flex-direction: column;
-    padding-left: 130px;
+    height: 12px;
   }
 
-  @media screen and (min-width: 1201px) {
-    .menu__link-header7_img {
-      display: none;
-    }
+  .carousel-item {
+    width: 113px;
+    height: 164px;
   }
 
-
-  @media screen and (min-width: 661px) and (max-width: 1200px) {
-    .first-page-content {
-      background-image: url(/assets/images/mountines1200.png);
-      overflow: hidden;
-    }
-
-    .nav__header {
-      max-width: 1200px;
-    }
-
-    .nav__logo-header {
-      width: 11em;
-      padding-left: 5em;
-    }
-
-    .nav__links-header {
-      justify-content: space-between;
-    }
-
-    .switcher {
-      width: 11em;
-      justify-content: flex-end;
-      padding-right: 5em;
-    }
-
-    .menu__link-header7_img {
-      display: none;
-    }
-
-    .first-page-content__title {
-      padding-top: 100px;
-      padding-left: 150px;
-      font-size: 75px;
-      line-height: 85px;
-    }
-
-    .mainpage__btn {
-      margin-left: 3.25em;
-      margin-top: -80px;
-    }
-
-    .carousel__container {
-      margin-top: 50px;
-      padding-left: 2em;
-    }
-
-    .carousel-item {
-      margin-right: 30px;
-    }
-
-    .carousel-item__4,
-    .carousel-item__5 {
-      display: none;
-    }
-
-    .carousel__container:hover .carousel-item:hover {
-      -webkit-transform: scale(1.5);
-      transform: scale(1.5);
-    }
+  .carousel-item__3,
+  .carousel-item__4,
+  .carousel-item__5 {
+    display: none;
   }
 
-  @media screen and (min-width: 661px) and (max-width: 930px) {
-    .first-page-content__title {
-      max-width: 500px;
-      padding-top: 15px;
-      padding-left: 120px;
-      font-size: 55px;
-      line-height: 85px;
-    }
-
-    .social__mainpage {
-      margin-left: -80px;
-      margin-top: 160px;
-    }
-
-    .carousel__container {
-      padding-top: 80px;
-      padding-left: 2.5em;
-      padding-right: 5em;
-    }
-
-    .carousel-item__details .controls {
-      padding-bottom: 170px;
-    }
-
-    .carousel-item {
-
-      width: 180px;
-      height: 261px;
-    }
-
-    .carousel-item__4,
-    .carousel-item__5 {
-      display: none;
-    }
-
-    .slidecontainer__mainpage {
-      padding-left: 35%;
-      margin-top: -70px;
-      padding-right: 20px;
-      width: 200px;
-    }
+  .mainpage__btn {
+    margin-left: 1.5em;
+    margin-top: -80px;
   }
 
-
-  @media screen and (min-width: 536px) and (max-width: 660px) {
-    .first-page-content {
-      height: 926px;
-      background-image: url(/assets/images/mountines1200.png);
-      overflow: hidden;
-    }
-
-    .nav__header {
-      max-width: 660px;
-    }
-
-    .nav__logo-header {
-      width: 100%;
-      padding-left: 1.5em;
-    }
-
-    .switcher {
-      width: 20em;
-      justify-content: space-between;
-      padding-right: 1.5em;
-    }
-
-    .nav__links-header {
-      display: none;
-    }
-
-    .first-page-content__title {
-      max-width: 550px;
-      padding-top: 10px;
-      padding-left: 25px;
-      font-size: 55px;
-      line-height: 65px;
-    }
-
-    .mainpage__btn {
-      margin-left: 3em;
-      margin-top: -120px;
-    }
-
-    .social__mainpage {
-      margin-left: -80px;
-      margin-top: 120px;
-    }
-
-    .slidecontainer__mainpage {
-      padding-left: 35%;
-      margin-top: -10px;
-      padding-right: 20px;
-      width: 200px;
-    }
-
-    .carousel__container {
-      padding-top: 30px;
-      margin-top: 120px;
-      padding-left: 2em;
-    }
-
-    .carousel-item__details .controls {
-      padding-bottom: 135px;
-    }
-
-    .carousel-item {
-      width: 160px;
-      height: 223px;
-    }
-
-    .carousel-item__3,
-    .carousel-item__4,
-    .carousel-item__5 {
-      display: none;
-    }
-
-    .carousel__container:hover .carousel-item:hover {
-      -webkit-transform: scale(1.5);
-      transform: scale(1.5);
-    }
+  .slidecontainer__mainpage {
+    padding-left: 15%;
+    margin-top: 80px;
+    padding-right: 20px;
+    width: 200px;
   }
-
-  @media screen and (min-width: 421px) and (max-width: 535px) {
-    .first-page-content {
-      max-width: 535px;
-      height: 939px;
-      background-image: url(/assets/images/mountines600.png);
-      background-repeat: no-repeat;
-      overflow: hidden;
-    }
-
-    .nav__links-header {
-      display: none;
-    }
-
-    .nav__header {
-      max-width: 535px;
-    }
-
-    .nav__logo-header {
-      width: 100%;
-      padding-left: 1.5em;
-    }
-
-    .switcher {
-      width: 20em;
-      justify-content: space-between;
-      padding-right: 1.5em;
-    }
-
-    .first-page-content__title {
-      max-width: 350px;
-      padding-top: 10px;
-      padding-left: 25px;
-      font-size: 55px;
-      line-height: 65px;
-    }
-
-    .social__mainpage {
-      margin-left: -80px;
-      margin-top: 135px;
-    }
-
-    .carousel__container {
-      padding-top: 30px;
-      margin-top: 120px;
-      padding-left: 2em;
-
-    }
-
-    .carousel__container:hover .carousel-item:hover {
-      -webkit-transform: scale(1.3);
-      transform: scale(1.3);
-    }
-
-    .carousel-item__3,
-    .carousel-item__4,
-    .carousel-item__5 {
-      display: none;
-    }
-
-    .mainpage__btn {
-      margin-left: 2em;
-      margin-top: -50px;
-    }
-
-    .slidecontainer__mainpage {
-      padding-left: 45%;
-      margin-top: -35px;
-      padding-right: 20px;
-      width: 200px;
-    }
-  }
-
-  @media screen and (min-width: 321px) and (max-width: 420px) {
-    .first-page-content {
-      max-width: 420px;
-      height: 939px;
-      background-image: url(/assets/images/mountines600.png);
-      background-repeat: no-repeat;
-      overflow: hidden;
-    }
-
-    .nav__links-header {
-      display: none;
-    }
-
-    .nav__header {
-      max-width: 420px;
-    }
-
-    .nav__logo-header {
-      width: 100%;
-      padding-left: 1.5em;
-    }
-
-    .switcher {
-      width: 20em;
-      justify-content: space-between;
-      padding-right: 1.5em;
-    }
-
-    .first-page-content__title {
-      max-width: 350px;
-      padding-top: 10px;
-      padding-left: 25px;
-      font-size: 40px;
-      line-height: 50px;
-    }
-
-    .social__mainpage {
-      display: none;
-    }
-
-    .carousel__container {
-      padding-top: 30px;
-      margin-top: 150px;
-      padding-left: 5em;
-    }
-
-    .carousel__container:hover .carousel-item:hover {
-      -webkit-transform: scale(1.3);
-      transform: scale(1.3);
-    }
-
-    .carousel-item__details .controls {
-      padding-bottom: 110px;
-    }
-
-    .carousel-item__3,
-    .carousel-item__4,
-    .carousel-item__5 {
-      display: none;
-    }
-
-    .mainpage__btn {
-      margin-left: 2em;
-      margin-top: -50px;
-    }
-
-    .slidecontainer__mainpage {
-      padding-left: 30%;
-      margin-top: 130px;
-      padding-right: 20px;
-      width: 200px;
-    }
-  }
-
-  @media screen and (max-width: 320px) {
-    .first-page-content {
-      max-width: 399px;
-      height: 669px;
-      background-image: url(/assets/images/mountines400.png);
-      background-repeat: no-repeat;
-      overflow: hidden;
-    }
-
-    .nav__links-header {
-      display: none;
-    }
-
-    .nav__header {
-      max-width: 399px;
-    }
-
-    .nav__logo-header {
-      width: 100%;
-      padding-left: 1.5em;
-    }
-
-    .switcher {
-      width: 20em;
-      justify-content: space-between;
-      padding-right: 1.5em;
-    }
-
-    .first-page-content__title {
-      display: flex;
-      max-width: 300px;
-      padding-top: 1px;
-      padding-left: 25px;
-      font-size: 35px;
-    }
-
-    .social__mainpage {
-      display: none;
-    }
-
-    .carousel__container {
-      padding-top: 30px;
-      margin-top: 35px;
-      padding-left: 1.5em;
-    }
-
-    .carousel__container:hover .carousel-item:hover {
-      -webkit-transform: scale(1.4);
-      transform: scale(1.4);
-    }
-
-    .carousel-item__details .controls {
-      padding-bottom: 45px;
-    }
-
-    .about__animal {
-      font-size: 9px;
-    }
-
-    .carousel-item-buttons {
-      display: flex;
-      flex-direction: column;
-      height: 12px;
-    }
-
-    .carousel-item {
-      width: 113px;
-      height: 164px;
-    }
-
-    .carousel-item__3,
-    .carousel-item__4,
-    .carousel-item__5 {
-      display: none;
-    }
-
-    .mainpage__btn {
-      margin-left: 1.5em;
-      margin-top: -80px;
-    }
-
-    .slidecontainer__mainpage {
-      padding-left: 15%;
-      margin-top: 80px;
-      padding-right: 20px;
-      width: 200px;
-    }
-  }
-  /* Стили 1го и 2го блоков ОКОНЧАНИЕ Надежда */
-
+}
+/* Стили 1го и 2го блоков ОКОНЧАНИЕ Надежда */
