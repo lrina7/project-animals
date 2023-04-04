@@ -7,7 +7,7 @@
   .first-page-content {
     max-width: 120.125em;
     height: 58.75em;
-    background-image: url(images/mountines.png);
+    background-image: url(/assets/images/mountines.png);
     overflow: hidden;
   }
 
@@ -360,7 +360,7 @@
 
   @media screen and (min-width: 661px) and (max-width: 1200px) {
     .first-page-content {
-      background-image: url(images/mountines1200.png);
+      background-image: url(/assets/images/mountines1200.png);
       overflow: hidden;
     }
 
@@ -466,7 +466,7 @@
   @media screen and (min-width: 536px) and (max-width: 660px) {
     .first-page-content {
       height: 926px;
-      background-image: url(images/mountines600.png);
+      background-image: url(/assets/images/mountines1200.png);
       overflow: hidden;
     }
 
@@ -545,7 +545,7 @@
     .first-page-content {
       max-width: 535px;
       height: 939px;
-      background-image: url(images/mountines600.png);
+      background-image: url(/assets/images/mountines600.png);
       background-repeat: no-repeat;
       overflow: hidden;
     }
@@ -617,7 +617,7 @@
     .first-page-content {
       max-width: 420px;
       height: 939px;
-      background-image: url(images/mountines600.png);
+      background-image: url(/assets/images/mountines600.png);
       background-repeat: no-repeat;
       overflow: hidden;
     }
@@ -691,7 +691,7 @@
     .first-page-content {
       max-width: 399px;
       height: 669px;
-      background-image: url(images/mountines400.png);
+      background-image: url(/assets/images/mountines400.png);
       background-repeat: no-repeat;
       overflow: hidden;
     }
@@ -776,3 +776,4 @@
     }
   }
   /* Стили 1го и 2го блоков ОКОНЧАНИЕ Надежда */
+
