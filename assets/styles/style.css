@@ -1056,7 +1056,7 @@ input:checked + .nav__label:after {
   padding-top: 12px;
   padding-bottom: 11px;
   padding-left: 18px;
-  padding-right: 5px;
+  padding-right: 17px;
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
   background: linear-gradient(#4bd8b5, #49d6df);
