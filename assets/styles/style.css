@@ -774,3 +774,391 @@ input:checked + .nav__label:after {
   }
 }
 /* Стили 1го и 2го блоков ОКОНЧАНИЕ Надежда */
+
+/* 3-5 блоки начало Екатерина */
+.information {
+  width: 100%;
+  max-width: 1920px;
+  background: rgba(51, 51, 51, 1);
+}
+.h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56.25px;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 790px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.text,
+.info-text {
+  padding-top: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(242, 242, 242, 1);
+}
+.section {
+  padding-top: 30px;
+  width: 100%;
+}
+.img {
+  width: 100%;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.counter-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(254, 254, 254, 1);
+}
+.counter-set {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(130, 130, 130, 1);
+}
+.slidecontainer {
+  display: flex;
+  width: 245px;
+  margin: 0 auto;
+  padding-bottom: 33px;
+}
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 255px;
+  height: 5px;
+  background: #fff;
+  outline: none;
+  opacity: 0.4;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.slider:hover {
+  opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 30px;
+  height: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  align-items: center;
+  width: 225px;
+  height: 35px;
+  margin: 0 auto;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  padding-left: 39px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(#4bd8b5, #49d6df);
+  border: none;
+  border-radius: 3px;
+}
+.text-button {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.img-button {
+  width: 32px;
+  height: 32px;
+}
+.article {
+  width: 100%;
+  background: rgba(79, 79, 79, 1);
+}
+.infocontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.info-img {
+  text-align: center;
+}
+.info-text {
+  padding-top: 15px;
+}
+.infocontainer__card {
+  padding-right: 25px;
+}
+.pets-animals {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  background-color: rgba(51, 51, 51, 1);
+}
+.pets-animals__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1252px;
+  margin: 0 auto;
+}
+.titles {
+  padding-top: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: rgba(254, 254, 254, 1);
+}
+.carousel__interactiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.arrow-left,
+.arrow-right {
+  background: rgba(51, 51, 51, 1);
+  border: 0;
+}
+.arrow-left {
+  padding-right: 26px;
+}
+.arrow-right {
+  padding-left: 26px;
+}
+.arrow {
+  transition: 1s;
+}
+.arrow:hover {
+  transform: scale(1.2);
+}
+.carousel__gallery {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  z-index: 10;
+}
+.carousel__gallery_img {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 23%;
+  padding-right: 30px;
+}
+.pets-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: -100px;
+  padding-left: 22px;
+  padding-right: 62px;
+  visibility: hidden;
+}
+.about {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(254, 254, 254, 1);
+}
+.pets-info__item {
+  display: flex;
+  width: 100%;
+}
+.button-online,
+.button-donate {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  font-weight: 500;
+  font-size: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+  border-radius: 3px;
+}
+.button-online {
+  color: rgba(75, 216, 181, 1);
+}
+.button-donate {
+  padding-left: 5px;
+  color: rgba(255, 255, 255, 1);
+}
+.button-online__watch,
+.button-donate__img {
+  width: 24px;
+  height: 24px;
+  padding-right: 2px;
+}
+.img-gallery:hover {
+  border: 3px solid #469df0;
+  border-radius: 5px;
+}
+.carousel__gallery_img:hover .pets-info {
+  visibility: visible;
+  transition: 1s;
+  -webkit-transition: 1s;
+  transform: translatey(-30px);
+  -webkit-transform: translatey(-30px);
+}
+.pets-button {
+  display: flex;
+  align-items: center;
+  width: 225px;
+  height: 35px;
+  margin: 0 auto;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  padding-left: 18px;
+  padding-right: 5px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(#4bd8b5, #49d6df);
+  border: none;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 1299px) {
+  .carousel__gallery {
+    max-width: 860px;
+  }
+  .pets-info {
+    margin-top: -130px;
+  }
+  .about {
+    font-size: 10px;
+  }
+  .arrow-left {
+    display: none;
+  }
+  .arrow-right {
+    display: none;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .section {
+    max-width: 93%;
+    margin: 0 auto;
+    padding-top: 14px;
+  }
+  .text {
+    max-width: 93%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .h2 {
+    padding-left: 20px;
+  }
+  .infocontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 44%;
+  }
+}
+@media screen and (max-width: 999px) {
+  .carousel__gallery {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .carousel__gallery_img {
+    max-width: 48%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+  .titles {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 669px) {
+  .section {
+    max-width: 95%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .h2 {
+    padding-left: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .text {
+    max-width: 95%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-left: 10px;
+  }
+  .infocontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 93%;
+    padding-left: 11px;
+    padding-right: 10px;
+  }
+  .carousel__gallery {
+    flex-wrap: wrap;
+  }
+  .carousel__gallery_img {
+    width: 35%;
+    padding-bottom: 30px;
+  }
+  .titles {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 469px) {
+  .carousel__gallery {
+    flex-wrap: nowrap;
+    justify-content: start;
+  }
+}
+/* 3-5 блоки окончание Екатерина */
