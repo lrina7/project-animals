@@ -1194,7 +1194,7 @@ h2 {
 .mapcontainer__map {
   background-position: center;
   margin: 0 auto;
-  background-image: url(/assets/images/Group.svg);
+  background-image: url(assets/images/Group.svg);
   width: 1198px;
   height: 498px;
   background-repeat: no-repeat;
