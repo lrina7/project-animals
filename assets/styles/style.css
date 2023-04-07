@@ -871,7 +871,7 @@ input:checked + .nav__label:after {
   background: #fff;
   cursor: pointer;
 }
-.button {
+.section-button {
   display: flex;
   align-items: center;
   width: 225px;
