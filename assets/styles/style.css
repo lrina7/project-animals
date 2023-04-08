@@ -1716,3 +1716,428 @@ h2 {
 }
 
 /*стили блока с картой окончание Ирина*/
+
+/* Стили footer НАЧАЛО Рушана */
+
+.footer {
+  background-color: rgba(51, 51, 51, 1);
+  background-size: cover;
+  color: rgba(254, 254, 254, 1);
+  font-size: 16px;
+  font-family: "Roboto";
+}
+.nav__footer {
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 90px;
+}
+.nav__menu_footer {
+  display: flex;
+  width: 95vw;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 700;
+}
+.footer__logo {
+  margin-right: 32em;
+  margin-left: 2em;
+}
+
+.nav__menu_links {
+  color: rgba(254, 254, 254, 1);
+  text-decoration: none;
+  font-size: 500;
+}
+.menu__link-footer1 {
+  margin-left: 1em;
+  margin-right: 2em;
+}
+.menu__link-footer2 {
+  margin-right: 2em;
+}
+.menu__link-footer3 {
+  margin-right: 2em;
+}
+.menu__link-footer4 {
+  margin-right: 2em;
+}
+.footer-button {
+  background: linear-gradient(106.89deg, #4bd8b5 -14.32%, #49d6df 100.68%);
+  height: 3.6em;
+  width: 17.3rem;
+  align-self: flex-end;
+  margin-right: 5em;
+  border-color: transparent;
+  border-radius: 3px;
+}
+.footer__button_links {
+  text-decoration: none;
+  color: rgba(254, 254, 254, 1);
+}
+
+.nav__footer-button {
+  display: flex;
+  width: 20em;
+  justify-content: flex-end;
+}
+.footer__main_container {
+  margin-top: 5em;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 1fr;
+  gap: 5px;
+}
+.footer__main-form {
+  margin-left: 2em;
+}
+.form__title-text {
+  font-size: 20px;
+}
+
+.form__name-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  padding: 0.5em;
+  margin-bottom: 2em;
+  font-size: 14px;
+  width: 28em;
+  color: #fff;
+}
+.form__name-input:focus {
+  outline: 0;
+  outline-offset: 0;
+  color: #fff; /* цвет текста */
+  border: 1px solid #4bd8b5; /* цвет обводки */
+  border-radius: 3px;
+}
+
+.form__mail-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  padding: 0.5em;
+  margin-bottom: 2em;
+  font-size: 14px;
+  width: 28em;
+  color: #fff;
+}
+.form__mail-input:focus {
+  outline: 0;
+  outline-offset: 0;
+  color: #fff; /* цвет текста */
+  border: 1px solid #4bd8b5; /* цвет обводки */
+  border-radius: 3px;
+}
+.form__message {
+  position: relative;
+  margin-top: 2em;
+}
+.form__label {
+  position: absolute;
+  top: -9px;
+  left: 8px;
+  background: rgba(51, 51, 51, 1);
+  padding: 0 5px;
+  font-size: 12px;
+  color: rgba(189, 189, 189, 1);
+}
+.form__message-input {
+  width: 383px;
+  height: 115px;
+  border-radius: 3px;
+  background: transparent;
+  border: none;
+  border: 1px solid rgba(189, 189, 189, 1);
+  padding: 0.5em;
+  margin-bottom: 2em;
+  color: #fff;
+  resize: vertical;
+}
+.form__message-input:focus {
+  outline: 0;
+  outline-offset: 0;
+  color: #fff; /* цвет текста */
+  border: 1px solid #4bd8b5; /* цвет обводки */
+}
+
+.footer__checkbox-input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.footer__checkbox-input + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  font-size: 12px;
+  line-height: 14px;
+  color: #bdbdbd;
+}
+.footer__checkbox-input + label::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+.footer__checkbox-input:checked + label::before {
+  border-color: #4bd8b5;
+  background-color: #4bd8b5;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+.footer-form__button {
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+}
+.form__button {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.arrow {
+  color: rgba(254, 254, 254, 1);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 18px;
+  display: inline-block;
+}
+.arrow .arrow-icon {
+  position: relative;
+  top: -1px;
+  transition: transform 0.3s ease;
+  vertical-align: middle;
+}
+.arrow .arrow-iconcircle {
+  transition: stroke-dashoffset 0.3s ease;
+  stroke-dasharray: 95;
+  stroke-dashoffset: 95;
+}
+.arrow:hover .arrow-icon {
+  transform: translate3d(15px, 0, 0);
+}
+.arrow:hover .arrow-iconcircle {
+  stroke-dashoffset: 0;
+}
+.footer__contacts {
+  margin-left: 0.5em;
+}
+.footer__contacts-title {
+  font-size: 14px;
+}
+.footer__contacts-adress {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.footer__contacts-phone {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.footer__contacts-mail {
+  text-decoration: none;
+  color: rgba(254, 254, 254, 1);
+}
+.social-icons {
+  display: flex;
+  list-style: none;
+}
+
+.social-icons a {
+  position: relative;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: background-color 0.9s ease-in-out;
+  width: 2rem;
+  height: 2rem;
+}
+.social-icons__footer {
+  padding: 0;
+}
+.button-mobile {
+  display: none;
+}
+.footer__line {
+  height: 8em;
+  width: 95%;
+  margin-left: 2em;
+  margin-top: 4em;
+  border-top: 0.5px solid rgba(254, 254, 254, 0.637);
+}
+.footer__line-text {
+  margin-top: 2em;
+  font-size: 12px;
+  line-height: 1.8em;
+  color: rgba(189, 189, 189, 1);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav__menu_footer {
+    display: inline-flex;
+    width: 30vw;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer__logo {
+    margin-left: 2em;
+    margin-bottom: 2em;
+  }
+
+  .menu__link-footer1 {
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+  .menu__link-footer2 {
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+  .menu__link-footer3 {
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+  .menu__link-footer4 {
+    margin-left: 2em;
+  }
+  .nav__footer-button {
+    display: flex;
+    width: 50vw;
+    justify-content: flex-end;
+    height: 210px;
+  }
+  .footer-button {
+    margin-left: 1em;
+    margin-right: 0em;
+    margin-bottom: 8.8em;
+  }
+  .footer__main_container {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 70% 30%;
+    gap: 5px;
+  }
+  .footer-form__button {
+    margin-top: 2em;
+    width: 48vw;
+    justify-content: flex-end;
+  }
+  .form__title-text {
+    margin-top: 4em;
+  }
+  .footer__main-form {
+    margin-left: 4em;
+  }
+  .form__name-input {
+    width: 20em;
+  }
+  .form__mail-input {
+    width: 20em;
+  }
+
+  .form__message-input {
+    width: 18em;
+  }
+  .footer__contacts {
+    grid-row: 2/3;
+    width: 40%;
+    margin-left: 4em;
+  }
+  .footer__main-form {
+    width: 50%;
+  }
+  .button-mobile {
+    display: none;
+  }
+  .footer__line {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav__menu_footer {
+    display: inline-flex;
+    width: 100vw;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer__logo {
+    margin-left: 2em;
+    margin-bottom: 2em;
+  }
+
+  .menu__link-footer1 {
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+  .menu__link-footer2 {
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+  .menu__link-footer3 {
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+  .menu__link-footer4 {
+    margin-left: 2em;
+  }
+  .footer__main_container {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 70% 30%;
+    gap: 5px;
+  }
+  .footer-form__button {
+    margin-top: 2em;
+    width: 48vw;
+    justify-content: flex-end;
+  }
+  .form__title-text {
+    margin-top: 4em;
+  }
+  .footer__main-form {
+    margin-left: 1em;
+    width: 70%;
+  }
+  .form__name-input {
+    width: 18em;
+  }
+  .form__mail-input {
+    width: 18em;
+  }
+
+  .form__message-input {
+    width: 16em;
+  }
+  .footer__contacts {
+    grid-row: 2/3;
+    width: 40%;
+    margin-left: 1em;
+  }
+
+  .button-1200 {
+    display: none;
+  }
+  .button-mobile {
+    display: flex;
+    margin: 2em 0em 0em 3.4em;
+  }
+  .footer__line {
+    width: 85%;
+  }
+}
+/* Стили footer ОКОНЧАНИЕ Рушана */
