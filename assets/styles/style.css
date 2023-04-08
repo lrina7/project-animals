@@ -240,6 +240,7 @@ input:checked + .nav__label:after {
 }
 
 .text-button {
+  margin: 0;
   text-transform: uppercase;
   padding-left: 10px;
   font-weight: 900;
@@ -837,6 +838,7 @@ input:checked + .nav__label:after {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  padding-top: 29px;
 }
 
 .counter-item {
@@ -910,15 +912,6 @@ input:checked + .nav__label:after {
   background: linear-gradient(#4bd8b5, #49d6df);
   border: none;
   border-radius: 3px;
-}
-
-.text-button {
-  margin: 0;
-  font-family: "Roboto";
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 21px;
-  text-transform: uppercase;
 }
 
 .img-button {
