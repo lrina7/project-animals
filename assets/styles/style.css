@@ -1,3 +1,8 @@
+*,
+::after,
+::before {
+  box-sizing: content-box;
+}
 /* Стили 1го и 2го блоков НАЧАЛО Надежда */
 body {
   max-width: 120.125em;
@@ -14,6 +19,7 @@ body {
 
 .nav__header {
   display: flex;
+  flex-wrap: nowrap;
   max-width: 120.125em;
   height: 5.88em;
   align-items: center;
@@ -142,7 +148,7 @@ input:checked + .nav__label:after {
   text-align: left;
 }
 
-.carousel-item {
+.carousel-list-item {
   flex-shrink: 0;
   width: 140px;
   height: 203px;
@@ -157,29 +163,29 @@ input:checked + .nav__label:after {
   position: relative;
 }
 
-.carousel-item:hover ~ .carousel-item {
+.carousel-list-item:hover ~ .carousel-list-item {
   -webkit-transform: translate3d(120px, 0, 0);
   transform: translate3d(180px, 0, 0);
 }
 
-.carousel__container:hover .carousel-item {
+.carousel__container:hover .carousel-list-item {
   opacity: 0.9;
 }
 
-.carousel__container:hover .carousel-item:hover {
+.carousel__container:hover .carousel-list-item:hover {
   -webkit-transform: scale(2);
   transform: scale(2);
   opacity: 1;
 }
 
-.carousel-item__img {
+.carousel-list-item__img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-.carousel-item__details {
+.carousel-list-item__details {
   background: -webkit-gradient(
     linear,
     left bottom,
@@ -203,11 +209,11 @@ input:checked + .nav__label:after {
   bottom: 0;
 }
 
-.carousel-item__details:hover {
+.carousel-list-item__details:hover {
   opacity: 2;
 }
 
-.carousel-item__details .controls {
+.carousel-list-item__details .controls {
   padding-bottom: 115px;
 }
 
@@ -250,7 +256,7 @@ input:checked + .nav__label:after {
   color: #ffffff;
 }
 
-.carousel-item-buttons {
+.carousel-list-item-buttons {
   display: flex;
   width: 100%;
 }
@@ -409,16 +415,16 @@ input:checked + .nav__label:after {
     padding-left: 2em;
   }
 
-  .carousel-item {
+  .carousel-list-item {
     margin-right: 30px;
   }
 
-  .carousel-item__4,
-  .carousel-item__5 {
+  .carousel-list-item__4,
+  .carousel-list-item__5 {
     display: none;
   }
 
-  .carousel__container:hover .carousel-item:hover {
+  .carousel__container:hover .carousel-list-item:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
   }
@@ -444,17 +450,17 @@ input:checked + .nav__label:after {
     padding-right: 5em;
   }
 
-  .carousel-item__details .controls {
+  .carousel-list-item__details .controls {
     padding-bottom: 170px;
   }
 
-  .carousel-item {
+  .carousel-list-item {
     width: 180px;
     height: 261px;
   }
 
-  .carousel-item__4,
-  .carousel-item__5 {
+  .carousel-list-item__4,
+  .carousel-list-item__5 {
     display: none;
   }
 
@@ -523,22 +529,22 @@ input:checked + .nav__label:after {
     padding-left: 2em;
   }
 
-  .carousel-item__details .controls {
+  .carousel-list-item__details .controls {
     padding-bottom: 135px;
   }
 
-  .carousel-item {
+  .carousel-list-item {
     width: 160px;
     height: 223px;
   }
 
-  .carousel-item__3,
-  .carousel-item__4,
-  .carousel-item__5 {
+  .carousel-list-item__3,
+  .carousel-list-item__4,
+  .carousel-list-item__5 {
     display: none;
   }
 
-  .carousel__container:hover .carousel-item:hover {
+  .carousel__container:hover .carousel-list-item:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
   }
@@ -591,14 +597,14 @@ input:checked + .nav__label:after {
     padding-left: 2em;
   }
 
-  .carousel__container:hover .carousel-item:hover {
+  .carousel__container:hover .carousel-list-item:hover {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
   }
 
-  .carousel-item__3,
-  .carousel-item__4,
-  .carousel-item__5 {
+  .carousel-list-item__3,
+  .carousel-list-item__4,
+  .carousel-list-item__5 {
     display: none;
   }
 
@@ -660,18 +666,18 @@ input:checked + .nav__label:after {
     padding-left: 5em;
   }
 
-  .carousel__container:hover .carousel-item:hover {
+  .carousel__container:hover .carousel-list-item:hover {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
   }
 
-  .carousel-item__details .controls {
+  .carousel-list-item__details .controls {
     padding-bottom: 110px;
   }
 
-  .carousel-item__3,
-  .carousel-item__4,
-  .carousel-item__5 {
+  .carousel-list-item__3,
+  .carousel-list-item__4,
+  .carousel-list-item__5 {
     display: none;
   }
 
@@ -734,12 +740,12 @@ input:checked + .nav__label:after {
     padding-left: 1.5em;
   }
 
-  .carousel__container:hover .carousel-item:hover {
+  .carousel__container:hover .carousel-list-item:hover {
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
   }
 
-  .carousel-item__details .controls {
+  .carousel-list-item__details .controls {
     padding-bottom: 45px;
   }
 
@@ -747,20 +753,20 @@ input:checked + .nav__label:after {
     font-size: 9px;
   }
 
-  .carousel-item-buttons {
+  .carousel-list-item-buttons {
     display: flex;
     flex-direction: column;
     height: 12px;
   }
 
-  .carousel-item {
+  .carousel-list-item {
     width: 113px;
     height: 164px;
   }
 
-  .carousel-item__3,
-  .carousel-item__4,
-  .carousel-item__5 {
+  .carousel-list-item__3,
+  .carousel-list-item__4,
+  .carousel-list-item__5 {
     display: none;
   }
 
