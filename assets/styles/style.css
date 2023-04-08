@@ -1084,7 +1084,9 @@ input:checked + .nav__label:after {
   height: 24px;
   padding-right: 2px;
 }
-
+.text-img {
+  margin: 0 auto;
+}
 .panda-gallery:hover {
   border: 3px solid #469df0;
   border-radius: 5px;
