@@ -913,6 +913,7 @@ input:checked + .nav__label:after {
 }
 
 .text-button {
+  margin: 0;
   font-family: "Roboto";
   font-weight: 900;
   font-size: 18px;
