@@ -8,6 +8,7 @@ body {
   max-width: 120.125em;
   height: 58.75em;
   background-image: url(../images/mountines.png);
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 
@@ -86,11 +87,11 @@ input[type="checkbox"] {
   transition: 0.3s;
 }
 
-input:checked + .nav__label {
+input:checked+.nav__label {
   background: rgba(79, 79, 79, 1);
 }
 
-input:checked + .nav__label:after {
+input:checked+.nav__label:after {
   left: calc(100% - 5px);
   transform: translateX(-100%);
 }
@@ -113,7 +114,7 @@ input:checked + .nav__label:after {
 .mainpage__btn {
   display: flex;
   margin-top: 25px;
-  margin-left: 13em;
+  margin-left: 4em;
   width: 21.77%;
 }
 
@@ -138,6 +139,7 @@ input:checked + .nav__label:after {
   font-size: 89px;
   line-height: 104px;
   color: #fefefe;
+  text-align: left;
 }
 
 .carousel-item {
@@ -155,7 +157,7 @@ input:checked + .nav__label:after {
   position: relative;
 }
 
-.carousel-item:hover ~ .carousel-item {
+.carousel-item:hover~.carousel-item {
   -webkit-transform: translate3d(120px, 0, 0);
   transform: translate3d(180px, 0, 0);
 }
@@ -178,18 +180,14 @@ input:checked + .nav__label:after {
 }
 
 .carousel-item__details {
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    from(rgba(0, 0, 0, 0.9)),
-    to(rgba(0, 0, 0, 0))
-  );
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.2) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: -webkit-gradient(linear,
+      left bottom,
+      left top,
+      from(rgba(0, 0, 0, 0.9)),
+      to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to top,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0) 100%);
   opacity: 0;
   -webkit-transition: 450ms opacity;
   transition: 450ms opacity;
@@ -362,7 +360,9 @@ input:checked + .nav__label:after {
 @media screen and (min-width: 661px) and (max-width: 1200px) {
   .first-page-content {
     background-image: url(../images/mountines1200.png);
+    background-repeat: no-repeat;
     overflow: hidden;
+    height: auto;
   }
 
   .nav__header {
@@ -435,7 +435,7 @@ input:checked + .nav__label:after {
   }
 
   .carousel__container {
-    padding-top: 80px;
+    padding-top: 125px;
     padding-left: 2.5em;
     padding-right: 5em;
   }
@@ -456,7 +456,6 @@ input:checked + .nav__label:after {
 
   .slidecontainer__mainpage {
     padding-left: 35%;
-    margin-top: -70px;
     padding-right: 20px;
     width: 200px;
   }
@@ -466,6 +465,7 @@ input:checked + .nav__label:after {
   .first-page-content {
     height: 926px;
     background-image: url(../images/mountines1200.png);
+    background-repeat: no-repeat;
     overflow: hidden;
   }
 
@@ -498,7 +498,7 @@ input:checked + .nav__label:after {
 
   .mainpage__btn {
     margin-left: 3em;
-    margin-top: -120px;
+    margin-top: -30px;
   }
 
   .social__mainpage {
@@ -583,7 +583,7 @@ input:checked + .nav__label:after {
 
   .carousel__container {
     padding-top: 30px;
-    margin-top: 120px;
+    margin-top: 170px;
     padding-left: 2em;
   }
 
@@ -674,12 +674,12 @@ input:checked + .nav__label:after {
 
   .mainpage__btn {
     margin-left: 2em;
-    margin-top: -50px;
+    margin-top: -10px;
   }
 
   .slidecontainer__mainpage {
     padding-left: 30%;
-    margin-top: 130px;
+    padding-top: 130px;
     padding-right: 20px;
     width: 200px;
   }
@@ -719,6 +719,7 @@ input:checked + .nav__label:after {
     padding-top: 1px;
     padding-left: 25px;
     font-size: 35px;
+    line-height: 36px;
   }
 
   .social__mainpage {
@@ -726,8 +727,8 @@ input:checked + .nav__label:after {
   }
 
   .carousel__container {
-    padding-top: 30px;
-    margin-top: 35px;
+
+    margin-top: 20px;
     padding-left: 1.5em;
   }
 
@@ -763,16 +764,17 @@ input:checked + .nav__label:after {
 
   .mainpage__btn {
     margin-left: 1.5em;
-    margin-top: -80px;
+    margin-top: -75px;
   }
 
   .slidecontainer__mainpage {
     padding-left: 15%;
-    margin-top: 80px;
+    padding-top: 60px;
     padding-right: 20px;
     width: 200px;
   }
 }
+
 /* Стили 1го и 2го блоков ОКОНЧАНИЕ Надежда */
 
 /* 3-5 блоки начало Екатерина */
@@ -781,6 +783,7 @@ input:checked + .nav__label:after {
   max-width: 1920px;
   background: rgba(51, 51, 51, 1);
 }
+
 .h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -790,6 +793,7 @@ input:checked + .nav__label:after {
   color: rgba(255, 255, 255, 1);
   margin: 0;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -799,6 +803,7 @@ input:checked + .nav__label:after {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .text,
 .info-text {
   padding-top: 30px;
@@ -809,18 +814,22 @@ input:checked + .nav__label:after {
   line-height: 16px;
   color: rgba(242, 242, 242, 1);
 }
+
 .section {
   padding-top: 30px;
   width: 100%;
 }
+
 .img {
   width: 100%;
 }
+
 .counter {
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
+
 .counter-item {
   font-family: "Roboto";
   font-style: normal;
@@ -829,6 +838,7 @@ input:checked + .nav__label:after {
   line-height: 28px;
   color: rgba(254, 254, 254, 1);
 }
+
 .counter-set {
   font-family: "Roboto";
   font-style: normal;
@@ -837,12 +847,14 @@ input:checked + .nav__label:after {
   line-height: 28px;
   color: rgba(130, 130, 130, 1);
 }
+
 .slidecontainer {
   display: flex;
   width: 245px;
   margin: 0 auto;
   padding-bottom: 33px;
 }
+
 .slider {
   -webkit-appearance: none;
   appearance: none;
@@ -854,9 +866,11 @@ input:checked + .nav__label:after {
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
 }
+
 .slider:hover {
   opacity: 1;
 }
+
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
@@ -865,12 +879,14 @@ input:checked + .nav__label:after {
   background: #fff;
   cursor: pointer;
 }
+
 .slider::-moz-range-thumb {
   width: 30px;
   height: 10px;
   background: #fff;
   cursor: pointer;
 }
+
 .section-button {
   display: flex;
   align-items: center;
@@ -886,6 +902,7 @@ input:checked + .nav__label:after {
   border: none;
   border-radius: 3px;
 }
+
 .text-button {
   font-family: "Roboto";
   font-weight: 900;
@@ -893,14 +910,17 @@ input:checked + .nav__label:after {
   line-height: 21px;
   text-transform: uppercase;
 }
+
 .img-button {
   width: 32px;
   height: 32px;
 }
+
 .article {
   width: 100%;
   background: rgba(79, 79, 79, 1);
 }
+
 .infocontainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -911,6 +931,7 @@ input:checked + .nav__label:after {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
 .h3 {
   font-family: "Roboto";
   font-style: normal;
@@ -920,21 +941,26 @@ input:checked + .nav__label:after {
   text-align: center;
   color: rgba(255, 255, 255, 1);
 }
+
 .info-img {
   text-align: center;
 }
+
 .info-text {
   padding-top: 15px;
 }
+
 .infocontainer__card {
   padding-right: 25px;
 }
+
 .pets-animals {
   display: flex;
   justify-content: center;
   padding-bottom: 100px;
   background-color: rgba(51, 51, 51, 1);
 }
+
 .pets-animals__container {
   display: flex;
   flex-direction: column;
@@ -943,6 +969,7 @@ input:checked + .nav__label:after {
   max-width: 1252px;
   margin: 0 auto;
 }
+
 .titles {
   padding-top: 50px;
   font-family: "Roboto";
@@ -953,28 +980,35 @@ input:checked + .nav__label:after {
   text-align: center;
   color: rgba(254, 254, 254, 1);
 }
+
 .carousel__interactiv {
   display: flex;
   justify-content: center;
   width: 100%;
 }
+
 .arrow-left,
 .arrow-right {
   background: rgba(51, 51, 51, 1);
   border: 0;
 }
+
 .arrow-left {
   padding-right: 26px;
 }
+
 .arrow-right {
   padding-left: 26px;
 }
+
 .arrow {
   transition: 1s;
 }
+
 .arrow:hover {
   transform: scale(1.2);
 }
+
 .carousel__gallery {
   position: relative;
   display: flex;
@@ -983,6 +1017,7 @@ input:checked + .nav__label:after {
   max-width: 1200px;
   z-index: 10;
 }
+
 .carousel__gallery_img {
   display: flex;
   justify-content: space-between;
@@ -990,6 +1025,7 @@ input:checked + .nav__label:after {
   width: 23%;
   padding-right: 30px;
 }
+
 .pets-info {
   display: flex;
   flex-direction: column;
@@ -998,6 +1034,7 @@ input:checked + .nav__label:after {
   padding-right: 62px;
   visibility: hidden;
 }
+
 .about {
   font-family: "Roboto";
   font-style: normal;
@@ -1006,10 +1043,12 @@ input:checked + .nav__label:after {
   line-height: 16px;
   color: rgba(254, 254, 254, 1);
 }
+
 .pets-info__item {
   display: flex;
   width: 100%;
 }
+
 .button-online,
 .button-donate {
   display: flex;
@@ -1023,35 +1062,43 @@ input:checked + .nav__label:after {
   background: transparent;
   border-radius: 3px;
 }
+
 .button-online {
   color: rgba(75, 216, 181, 1);
 }
+
 .button-donate {
   padding-left: 5px;
   color: rgba(255, 255, 255, 1);
 }
+
 .button-online__watch,
 .button-donate__img {
   width: 24px;
   height: 24px;
   padding-right: 2px;
 }
+
 .panda-gallery:hover {
   border: 3px solid #469df0;
   border-radius: 5px;
 }
+
 .eagle-gallery:hover {
   border: 3px solid #469df0;
   border-radius: 5px;
 }
+
 .gorilla-gallery:hover {
   border: 3px solid #469df0;
   border-radius: 5px;
 }
+
 .alligator-gallery:hover {
   border: 3px solid #469df0;
   border-radius: 5px;
 }
+
 .carousel__gallery_img:hover .pets-info {
   visibility: visible;
   transition: 1s;
@@ -1059,6 +1106,7 @@ input:checked + .nav__label:after {
   transform: translatey(-30px);
   -webkit-transform: translatey(-30px);
 }
+
 .pets-button {
   display: flex;
   align-items: center;
@@ -1080,54 +1128,66 @@ input:checked + .nav__label:after {
   .carousel__gallery {
     max-width: 860px;
   }
+
   .pets-info {
     margin-top: -130px;
   }
+
   .about {
     font-size: 10px;
   }
+
   .arrow-left {
     display: none;
   }
+
   .arrow-right {
     display: none;
   }
 }
+
 @media screen and (max-width: 1023px) {
   .section {
     max-width: 93%;
     margin: 0 auto;
     padding-top: 14px;
   }
+
   .text {
     max-width: 93%;
     margin: 0 auto;
     padding-bottom: 30px;
   }
+
   .h2 {
     padding-left: 20px;
   }
+
   .infocontainer {
     display: grid;
     grid-template-columns: 1fr;
     max-width: 44%;
   }
 }
+
 @media screen and (max-width: 999px) {
   .carousel__gallery {
     flex-wrap: wrap;
     justify-content: space-around;
   }
+
   .carousel__gallery_img {
     max-width: 48%;
     margin: 0 auto;
     padding-bottom: 30px;
     padding-top: 10px;
   }
+
   .titles {
     font-size: 36px;
   }
 }
+
 @media screen and (max-width: 669px) {
   .section {
     max-width: 95%;
@@ -1135,6 +1195,7 @@ input:checked + .nav__label:after {
     padding-left: 10px;
     padding-right: 10px;
   }
+
   .h2 {
     padding-left: 10px;
     font-family: "Roboto";
@@ -1143,12 +1204,14 @@ input:checked + .nav__label:after {
     font-size: 36px;
     line-height: 42px;
   }
+
   .text {
     max-width: 95%;
     margin: 0 auto;
     padding-bottom: 30px;
     padding-left: 10px;
   }
+
   .infocontainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -1156,45 +1219,55 @@ input:checked + .nav__label:after {
     padding-left: 11px;
     padding-right: 10px;
   }
+
   .carousel__gallery {
     flex-wrap: wrap;
   }
+
   .carousel__gallery_img {
     width: 35%;
     padding-bottom: 30px;
   }
+
   .titles {
     font-size: 36px;
   }
 }
+
 @media screen and (max-width: 469px) {
   .pets-animals {
     padding-bottom: 50px;
   }
+
   .titles {
     padding-top: 0;
     padding-bottom: 0;
   }
+
   .carousel__gallery_img {
     width: 100%;
     padding-bottom: 10px;
     padding-top: 0;
   }
+
   .eagle-gallery,
   .gorilla-gallery,
   .alligator-gallery {
     display: none;
   }
+
   .pets-info {
     margin-top: -170px;
   }
 }
+
 /* 3-5 блоки окончание Екатерина */
 /* стили блока с картой начало Ирина */
 .map-block {
   background-color: #4f4f4f;
   overflow: hidden;
 }
+
 .mapcontainer {
   background-size: cover;
   max-width: 1300px;
@@ -1204,10 +1277,12 @@ input:checked + .nav__label:after {
   margin: 0 auto;
   height: 904px;
 }
+
 .mapcontainer__name {
   padding-top: 100px;
   padding-bottom: 60px;
 }
+
 h2 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -1219,6 +1294,7 @@ h2 {
   text-align: center;
   color: #f2f2f2;
 }
+
 .mapcontainer__map {
   background-position: center;
   margin: 0 auto;
@@ -1231,11 +1307,13 @@ h2 {
   background-size: 1200px 500px;
   position: relative;
 }
+
 .loc1 {
   position: absolute;
   top: 60px;
   left: 120px;
 }
+
 .loc1 .tooltip1 {
   position: absolute;
   left: -100%;
@@ -1243,51 +1321,62 @@ h2 {
   visibility: hidden;
   z-index: 1;
 }
+
 .loc1:hover .tooltip1 {
   visibility: visible;
 }
+
 .loc2 {
   position: absolute;
   top: 100px;
   left: 230px;
 }
+
 .loc2 .tooltip2 {
   position: absolute;
   left: -137%;
   top: 117px;
   visibility: hidden;
 }
+
 .loc2:hover .tooltip2 {
   visibility: visible;
 }
+
 .loc3 {
   position: absolute;
   top: 200px;
   right: 542px;
 }
+
 .loc3 .tooltip3 {
   position: absolute;
   visibility: hidden;
   top: 121px;
   right: -174px;
 }
+
 .loc3:hover .tooltip3 {
   visibility: visible;
 }
+
 .loc4 {
   position: absolute;
   top: 94px;
   right: 227px;
 }
+
 .loc4 .tooltip4 {
   position: absolute;
   visibility: hidden;
   left: -175%;
   top: 120px;
 }
+
 .loc4:hover .tooltip4 {
   visibility: visible;
 }
+
 .button {
   text-align: center;
   display: flex;
@@ -1304,6 +1393,7 @@ h2 {
   border: none;
   border-radius: 3px;
 }
+
 .text-button {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -1311,6 +1401,7 @@ h2 {
   text-transform: uppercase;
   padding-left: 10px;
 }
+
 .img-buttton {
   width: 32px;
   height: 32px;
@@ -1321,6 +1412,7 @@ h2 {
     max-width: 1200px;
     height: 842px;
   }
+
   .mapcontainer__map {
     width: 900px;
     height: 353px;
@@ -1328,43 +1420,55 @@ h2 {
     margin-bottom: 70px;
     background-size: 900px 436px;
   }
+
   .loc1 img {
     width: 70%;
   }
+
   .loc1 span img {
     width: 400px;
   }
+
   .loc2 {
     top: 100px;
     left: 180px;
   }
+
   .loc2 img {
     width: 70%;
   }
+
   .loc2 span img {
     width: 400px;
   }
+
   .loc3 {
     top: 160px;
     right: 390px;
   }
+
   .loc3 img {
     width: 70%;
   }
+
   .loc3 span img {
     width: 400px;
   }
+
   .loc4 {
     top: 80px;
     right: 150px;
   }
+
   .loc4 img {
     width: 70%;
   }
+
   .loc4 span img {
     width: 400px;
   }
 }
+
 @media (max-width: 900px) {
   .mapcontainer__map {
     width: 600px;
@@ -1372,47 +1476,60 @@ h2 {
     margin-bottom: 100px;
     background-size: 600px 236px;
   }
+
   .mapcontainer {
     max-width: 800px;
     height: 842px;
   }
+
   .loc1 {
     top: 60px;
     left: 70px;
   }
+
   .loc1 img {
     width: 50%;
   }
+
   .loc1 span img {
     width: 350px;
   }
+
   .loc2 {
     top: 70px;
     left: 120px;
   }
+
   .loc2 img {
     width: 50%;
   }
+
   .loc2 span img {
     width: 350px;
   }
+
   .loc3 {
     top: 120px;
     right: 220px;
   }
+
   .loc3 img {
     width: 50%;
   }
+
   .loc3 span img {
     width: 350px;
   }
+
   .loc4 {
     top: 80px;
     right: 70px;
   }
+
   .loc4 img {
     width: 50%;
   }
+
   .loc4 span img {
     width: 350px;
   }
@@ -1425,67 +1542,85 @@ h2 {
     margin-bottom: 100px;
     background-size: 500px 200px;
   }
+
   .mapcontainer {
     max-width: 500px;
     height: 842px;
   }
+
   .loc1 {
     top: 50px;
     left: 10px;
   }
+
   .loc1 img {
     width: 30%;
   }
+
   .loc1 span img {
     width: 250px;
   }
+
   .loc1 .tooltip1 {
     left: 50%;
     top: 150px;
   }
+
   .loc2 {
     top: 70px;
     left: 55px;
   }
+
   .loc2 img {
     width: 30%;
   }
+
   .loc2 span img {
     width: 250px;
   }
+
   .loc2 .tooltip2 {
     left: 50%;
     top: 150px;
   }
+
   .loc3 {
     top: 110px;
     right: 110px;
   }
+
   .loc3 img {
     width: 30%;
   }
+
   .loc3 span img {
     width: 250px;
   }
+
   .loc3 .tooltip3 {
     right: 50%;
     top: 130px;
   }
+
   .loc4 {
     top: 70px;
     right: -15px;
   }
+
   .loc4 img {
     width: 30%;
   }
+
   .loc4 span img {
     width: 250px;
   }
+
   .loc4 .tooltip4 {
     right: 50%;
     top: 150px;
   }
 }
+
 @media (max-width: 400px) {
   .mapcontainer__map {
     width: 300px;
@@ -1493,65 +1628,83 @@ h2 {
     margin-bottom: 70px;
     background-size: 320px 150px;
   }
+
   .mapcontainer {
     max-width: 300px;
     height: 842px;
   }
+
   .loc1 {
     top: 60px;
     left: 25px;
   }
+
   .loc1 img {
     width: 15%;
   }
+
   .loc1 span img {
     width: 150px;
   }
+
   .loc1 .tooltip1 {
     left: 50%;
     top: 120px;
   }
+
   .loc2 {
     top: 55px;
     left: 50px;
   }
+
   .loc2 img {
     width: 30%;
   }
+
   .loc2 span img {
     width: 150px;
   }
+
   .loc2 .tooltip2 {
     left: 50%;
     top: 120px;
   }
+
   .loc3 {
     top: 80px;
     right: 60px;
   }
+
   .loc3 img {
     width: 30%;
   }
+
   .loc3 span img {
     width: 150px;
   }
+
   .loc3 .tooltip3 {
     right: 50%;
     top: 120px;
   }
+
   .loc4 {
     top: 60px;
     right: -25px;
   }
+
   .loc4 img {
     width: 30%;
   }
+
   .loc4 span img {
     width: 150px;
   }
+
   .loc4 .tooltip4 {
     right: 50%;
     top: 120px;
   }
 }
+
 /*стили блока с картой окончание Ирина*/
