@@ -6,7 +6,7 @@ body {
 
 .first-page-content {
   max-width: 120.125em;
-  height: 58.75em;
+  height: auto;
   background-image: url(../images/mountines.png);
   background-repeat: no-repeat;
   overflow: hidden;
