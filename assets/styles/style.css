@@ -112,7 +112,7 @@ input:checked + .nav__label:after {
 
 .mainpage__btn {
   display: flex;
-  margin-top: -40px;
+  margin-top: 25px;
   margin-left: 13em;
   width: 21.77%;
 }
@@ -121,7 +121,7 @@ input:checked + .nav__label:after {
   display: flex;
   width: 68.58%;
   justify-content: flex-end;
-  padding-top: 10px;
+  padding-top: 70px;
   padding-left: 10.63em;
   margin-top: -5px;
 }
@@ -397,7 +397,7 @@ input:checked + .nav__label:after {
 
   .mainpage__btn {
     margin-left: 3.25em;
-    margin-top: -80px;
+    margin-top: -15px;
   }
 
   .carousel__container {
@@ -515,7 +515,7 @@ input:checked + .nav__label:after {
 
   .carousel__container {
     padding-top: 30px;
-    margin-top: 120px;
+    margin-top: 165px;
     padding-left: 2em;
   }
 
@@ -599,8 +599,8 @@ input:checked + .nav__label:after {
   }
 
   .mainpage__btn {
-    margin-left: 2em;
-    margin-top: -50px;
+    margin-left: em;
+    margin-top: 10px;
   }
 
   .slidecontainer__mainpage {
