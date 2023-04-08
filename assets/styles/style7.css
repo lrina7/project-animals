@@ -8,8 +8,8 @@
   font-family: "Roboto";
 }
 .nav__footer {
+  max-width: 1920px;
   display: flex;
-  width: 95vw;
   align-items: center;
   justify-content: space-evenly;
   padding-top: 90px;
