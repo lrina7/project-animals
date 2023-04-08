@@ -1036,7 +1036,19 @@ input:checked + .nav__label:after {
   height: 24px;
   padding-right: 2px;
 }
-.img-gallery:hover {
+.panda-gallery:hover {
+  border: 3px solid #469df0;
+  border-radius: 5px;
+}
+.eagle-gallery:hover {
+  border: 3px solid #469df0;
+  border-radius: 5px;
+}
+.gorilla-gallery:hover {
+  border: 3px solid #469df0;
+  border-radius: 5px;
+}
+.alligator-gallery:hover {
   border: 3px solid #469df0;
   border-radius: 5px;
 }
@@ -1156,9 +1168,25 @@ input:checked + .nav__label:after {
   }
 }
 @media screen and (max-width: 469px) {
-  .carousel__gallery {
-    flex-wrap: nowrap;
-    justify-content: start;
+  .pets-animals {
+    padding-bottom: 50px;
+  }
+  .titles {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .carousel__gallery_img {
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
+  .eagle-gallery,
+  .gorilla-gallery,
+  .alligator-gallery {
+    display: none;
+  }
+  .pets-info {
+    margin-top: -170px;
   }
 }
 /* 3-5 блоки окончание Екатерина */
