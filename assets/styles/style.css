@@ -603,7 +603,6 @@ input:checked + .nav__label:after {
   }
 
   .mainpage__btn {
-    margin-left: em;
     margin-top: 10px;
   }
 
