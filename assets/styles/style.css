@@ -788,6 +788,7 @@ input:checked + .nav__label:after {
 }
 
 .h2 {
+  text-align: start;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -977,6 +978,7 @@ input:checked + .nav__label:after {
 
 .titles {
   padding-top: 50px;
+  padding-bottom: 35px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
