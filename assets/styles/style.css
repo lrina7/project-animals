@@ -1196,9 +1196,10 @@ input:checked+.nav__label:after {
 
 @media screen and (max-width: 669px) {
   .section {
-    max-width: 95%;
+    max-width: 90%;
+    align-content: start;
     margin: 0 auto;
-    padding-left: 10px;
+    padding-left: 0;
     padding-right: 10px;
   }
 
@@ -1212,10 +1213,10 @@ input:checked+.nav__label:after {
   }
 
   .text {
-    max-width: 95%;
+    max-width: 90%;
     margin: 0 auto;
     padding-bottom: 30px;
-    padding-left: 10px;
+    padding-left: 0;
   }
 
   .infocontainer {
