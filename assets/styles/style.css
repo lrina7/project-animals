@@ -2143,3 +2143,147 @@ h2 {
   }
 }
 /* Стили footer ОКОНЧАНИЕ Рушана */
+/*стили для 3 странички*/
+.third-page-content {
+  height: 450px;
+
+  background-color: #4f4f4f;
+  overflow: hidden;
+}
+.third-page-content__title {
+  margin: 0 auto;
+  padding-top: 70px;
+  width: 790px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56px;
+  color: #fefefe;
+  text-align: center;
+}
+.third-page-text {
+  width: 790px;
+  height: 80px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(242, 242, 242, 1);
+}
+.carousel-container {
+  position: relative;
+  margin: 0 auto;
+  width: 1199px;
+  height: 238px;
+  overflow: hidden;
+}
+.carousel-slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.carousel-pagination-button {
+  display: inline-block;
+  width: 10px;
+  height: 1px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.carousel-pagination-button.active {
+  background-color: #333;
+}
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.carousel-arrow-left {
+  left: 20px;
+  background-image: url("left-arrow.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.carousel-arrow-right {
+  right: 20px;
+  background-image: url("right-arrow.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (min-width: 641px) and (max-width: 1200px) {
+  .carousel-container {
+    width: 800px;
+    height: 238px;
+  }
+}
+@media (max-width: 900px) {
+  .third-page-content__title {
+    padding-top: 60px;
+    width: 790px;
+    font-size: 48px;
+  }
+  .third-page-text {
+    width: 600px;
+    height: 120px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 14px;
+  }
+  .carousel-container {
+    width: 600px;
+    height: 138px;
+  }
+}
+@media (max-width: 600px) {
+  .third-page-content__title {
+    padding-top: 50px;
+    width: 400px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .third-page-text {
+    width: 400px;
+    height: 120px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .third-page-content__title {
+    padding-top: 40px;
+    width: 280px;
+    height: 46px;
+    font-size: 21px;
+    line-height: 28px;
+  }
+  .third-page-text {
+    width: 320px;
+    height: 80px;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    font-size: 12px;
+  }
+}
