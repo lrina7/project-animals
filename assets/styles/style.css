@@ -2451,6 +2451,9 @@ h2 {
     width: 40%;
     margin-left: 1em;
   }
+  .footer__contacts-title{
+    margin-top: 2em;
+  }
 
   .button-1200 {
     display: none;
