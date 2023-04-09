@@ -1,16 +1,17 @@
-.title,
-.subtitle_style h3 {
+.title_6-7,
+.subtitle_style,
+.h3_6-7 {
     font-family: 'Roboto';
     font-style: normal;
     text-align: center;
 }
 
-.title,
-.h3 {
+.title_6-7,
+.h3_6-7 {
     color: #FEFEFE;
 }
 
-.txt-style,
+.txt-style_6-7,
 .subtitle_style {
     color: #F2F2F2;
     font-size: 14px;
@@ -18,7 +19,7 @@
     font-weight: 400;
 }
 
-.txt-style {
+.txt-style_6-7 {
     text-align: left;
 }
 
@@ -26,7 +27,7 @@
     text-align: center;
 }
 
-.h3 {
+.h3_6-7 {
     width: 136px;
     height: 46px;
     left: 55px;
@@ -37,7 +38,7 @@
     text-align: center;
 }
 
-.button {
+.button_6-7 {
     width: 245px;
     height: 55px;
     text-decoration: none;
@@ -47,7 +48,7 @@
     border-radius: 3px;
 }
 
-.text-button {
+.text-button_6-7 {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 18px;
@@ -87,7 +88,7 @@
 }
 
 @media screen and (max-width: 639px) {
-    .title {
+    .title_6-7 {
         font-weight: 900;
         font-size: 36px;
         line-height: 42px;
@@ -99,7 +100,7 @@
         display: none;
     }
 
-    .txt-style {
+    .txt-style_6-7 {
         width: 272px;
         height: 48px;
     }
@@ -117,7 +118,7 @@
         margin: 30px;
     }
 
-    .button {
+    .button_6-7 {
         margin-top: 40px;
         margin-bottom: 40px;
     }
@@ -133,7 +134,7 @@
 }
 
 @media screen and (min-width: 640px) and (max-width: 1199px) {
-    .title {
+    .title_6-7 {
         font-weight: 900;
         font-size: 48px;
         line-height: 56px;
@@ -147,7 +148,7 @@
         font-weight: 500;
     }
 
-    .txt-style {
+    .txt-style_6-7 {
         width: 272px;
         height: 48px;
     }
@@ -165,7 +166,7 @@
         margin: 30px;
     }
 
-    .button {
+    .button_6-7 {
         margin-top: 40px;
         margin-bottom: 40px;
     }
@@ -181,7 +182,7 @@
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1919px) {
-    .title {
+    .title_6-7 {
         font-weight: 900;
         font-size: 48px;
         line-height: 56px;
@@ -207,7 +208,7 @@
         margin: 0 15px;
     }
 
-    .button {
+    .button_6-7 {
         margin-top: 60px;
         margin-bottom: 60px;
     }
@@ -224,7 +225,7 @@
 }
 
 @media screen and (min-width: 1920px) {
-    .title {
+    .title_6-7 {
         font-weight: 900;
         font-size: 48px;
         line-height: 56px;
@@ -236,7 +237,7 @@
         display: none;
     }
 
-    .button {
+    .button_6-7 {
         margin-top: 60px;
         margin-bottom: 60px;
     }

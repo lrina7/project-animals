@@ -1,777 +1,791 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/styles/normalize.css" />
-    <link rel="stylesheet" href="assets/styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet" />
-    <link
-      rel="shortcut icon"
-      href="assets/images/favocon.ico"
-      type="image/x-icon" />
-    <title>Animals</title>
-  </head>
 
-  <body>
-    <!-- Блок 1, 2 НАЧАЛО Надежда -->
-    <!-- header менять на footer -->
-    <header class="header">
-      <!-- для футера nav nav__footer -->
-      <nav class="nav nav__header">
-        <div class="nav__logo nav__logo-header">
-          <img
-            class="nav__logo nav__logo_img"
-            src="assets/images/logo.svg"
-            alt="logo" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles/normalize.css" />
+  <link rel="stylesheet" href="assets/styles/style3.css" />
+  <link rel="stylesheet" href="assets/styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="assets/images/favocon.ico" type="image/x-icon" />
+  <title>Animals</title>
+</head>
 
-          <!-- ссылка для следующих страниц -->
-          <a href="#" class="nav__logo nav__logo_href"></a>
-        </div>
-        <div class="nav__menu nav__links-header">
-          <!-- header менять на footer -->
+<body>
+  <!-- Блок 1, 2 НАЧАЛО Надежда -->
+  <!-- header менять на footer -->
+  <header class="header">
+    <!-- для футера nav nav__footer -->
+    <nav class="nav nav__header">
+      <div class="nav__logo nav__logo-header">
+        <img class="nav__logo nav__logo_img" src="assets/images/logo.svg" alt="logo" />
 
-          <!-- для футера nav__menu_links menu__link-footer1-->
-          <a class="nav__menu_links menu__link-header1" href="#" target="_blank"
-            >About</a
-          >
-          <a class="nav__menu_links menu__link-header2" href="#" target="_blank"
-            >Zoos</a
-          >
-          <a class="nav__menu_links menu__link-header3" href="#" target="_blank"
-            >Map</a
-          >
-          <a class="nav__menu_links menu__link-header4" href="#" target="_blank"
-            >Contact Us</a
-          >
-          <a class="nav__menu_links menu__link-header5" href="#" target="_blank"
-            >Design</a
-          >
-        </div>
-        <div></div>
-        <div class="switcher">
-          <!-- кнопка переключения с темной на светлую -->
-          <input class="menu__link-header6" type="checkbox" id="switch" /><label
-            class="nav__label"
-            for="switch"
-            >Toggle</label
-          >
-          <a href="#">
-            <img
-              class="menu__link-header7_img"
-              src="assets/images/hamburger.svg"
-              alt="logo"
-          /></a>
-        </div>
-      </nav>
-    </header>
-    <section class="first-page-content">
-      <h2 class="first-page-content__title">
-        Watch your favorite animal online
-      </h2>
-      <div class="mainpage">
-        <div class="social__mainpage">
-          <!-- mainpage менять на свое, например footer -->
-          <ul class="social-icons__mainpage social-icons">
-            <li>
-              <a
-                class="social-icon-instagram"
-                href="https://www.instagram.com/"
-                target="_blank"
-                rel="noopener"
-                ><img src="assets/images/instagram1.svg" alt="icon"
-              /></a>
-            </li>
-            <li>
-              <a
-                class="social-icon-twitter"
-                href="https://twitter.com/"
-                target="_blank"
-                rel="noopener"
-                ><img src="assets/images/twitter.svg" alt="icon"
-              /></a>
-            </li>
-            <li>
-              <a
-                class="social-icon-youtube"
-                href="https://www.youtube.com/"
-                target="_blank"
-                rel="noopener"
-                ><img src="assets/images/youtube.svg" alt="icon"
-              /></a>
-            </li>
-            <li>
-              <a
-                class="social-icon-vk"
-                href="https://vk.com/feed"
-                target="_blank"
-                rel="noopener"
-                ><img src="assets/images/vk.svg" alt="icon"
-              /></a>
-            </li>
-          </ul>
-        </div>
-        <div class="mainpage__btn">
-          <a href="https://youtu.be/3szkFHfr6sA" target="_blank" class="button">
-            <img class="img-button" src="assets/images/button.svg" alt="icon" />
-            <p class="text-button">watch online</p>
-          </a>
-        </div>
-        <div class="carousel__container">
-          <div class="carousel-list-item">
-            <img
-              class="carousel-list-item__img"
-              src="assets/images/eaglepng.png"
-              alt="eagl" />
-            <div class="carousel-list-item__details">
-              <div class="controls">
-                <span class="fas fa-play-circle"></span>
-                <span class="fas fa-plus-circle"></span>
-              </div>
-              <div>
-                <p class="about__animal about__animal-1">
-                  The plumage of an adult bald eagle is evenly dark brown with a
-                  white head and tail.
-                </p>
-              </div>
-              <div class="carousel-list-item-buttons">
-                <a
-                  href="https://youtu.be/3szkFHfr6sA"
-                  target="_blank"
-                  class="button-transparent">
-                  <img
-                    class="button-transparent--img"
-                    src="assets/images/play.svg"
-                    alt="icon" />
-                  <p>watch online</p>
-                </a>
-                <a href="#" target="_blank" class="button-donate">
-                  <img
-                    class="button-donate--img"
-                    src="assets/images/donate.svg"
-                    alt="icon" />
-                  <p>donate</p>
-                </a>
-              </div>
+        <!-- ссылка для следующих страниц -->
+        <a href="#" class="nav__logo nav__logo_href"></a>
+      </div>
+      <div class="nav__menu nav__links-header">
+        <!-- header менять на footer -->
+
+        <!-- для футера nav__menu_links menu__link-footer1-->
+        <a class="nav__menu_links menu__link-header1" href="#" target="_blank">About</a>
+        <a class="nav__menu_links menu__link-header2" href="#" target="_blank">Zoos</a>
+        <a class="nav__menu_links menu__link-header3" href="#" target="_blank">Map</a>
+        <a class="nav__menu_links menu__link-header4" href="#" target="_blank">Contact Us</a>
+        <a class="nav__menu_links menu__link-header5" href="#" target="_blank">Design</a>
+      </div>
+      <div></div>
+      <div class="switcher">
+        <!-- кнопка переключения с темной на светлую -->
+        <input class="menu__link-header6" type="checkbox" id="switch" /><label class="nav__label"
+          for="switch">Toggle</label>
+        <a href="#">
+          <img class="menu__link-header7_img" src="assets/images/hamburger.svg" alt="logo" /></a>
+      </div>
+    </nav>
+  </header>
+  <section class="first-page-content">
+    <h2 class="first-page-content__title">
+      Watch your favorite animal online
+    </h2>
+    <div class="mainpage">
+      <div class="social__mainpage">
+        <!-- mainpage менять на свое, например footer -->
+        <ul class="social-icons__mainpage social-icons">
+          <li>
+            <a class="social-icon-instagram" href="https://www.instagram.com/" target="_blank" rel="noopener"><img
+                src="assets/images/instagram1.svg" alt="icon" /></a>
+          </li>
+          <li>
+            <a class="social-icon-twitter" href="https://twitter.com/" target="_blank" rel="noopener"><img
+                src="assets/images/twitter.svg" alt="icon" /></a>
+          </li>
+          <li>
+            <a class="social-icon-youtube" href="https://www.youtube.com/" target="_blank" rel="noopener"><img
+                src="assets/images/youtube.svg" alt="icon" /></a>
+          </li>
+          <li>
+            <a class="social-icon-vk" href="https://vk.com/feed" target="_blank" rel="noopener"><img
+                src="assets/images/vk.svg" alt="icon" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="mainpage__btn">
+        <a href="https://youtu.be/3szkFHfr6sA" target="_blank" class="button">
+          <img class="img-button" src="assets/images/button.svg" alt="icon" />
+          <p class="text-button">watch online</p>
+        </a>
+      </div>
+      <div class="carousel__container">
+        <div class="carousel-list-item">
+          <img class="carousel-list-item__img" src="assets/images/eaglepng.png" alt="eagl" />
+          <div class="carousel-list-item__details">
+            <div class="controls">
+              <span class="fas fa-play-circle"></span>
+              <span class="fas fa-plus-circle"></span>
+            </div>
+            <div>
+              <p class="about__animal about__animal-1">
+                The plumage of an adult bald eagle is evenly dark brown with a
+                white head and tail.
+              </p>
+            </div>
+            <div class="carousel-list-item-buttons">
+              <a href="https://youtu.be/3szkFHfr6sA" target="_blank" class="button-transparent">
+                <img class="button-transparent--img" src="assets/images/play.svg" alt="icon" />
+                <p>watch online</p>
+              </a>
+              <a href="#" target="_blank" class="button-donate">
+                <img class="button-donate--img" src="assets/images/donate.svg" alt="icon" />
+                <p>donate</p>
+              </a>
             </div>
           </div>
-          <div class="carousel-list-item carousel-list-item__2">
-            <img
-              class="carousel-list-item__img"
-              src="assets/images/pandapng.png"
-              alt="panda" />
-            <div class="carousel-list-item__details">
-              <div class="controls">
-                <span class="fas fa-play-circle"></span>
-                <span class="fas fa-plus-circle"></span>
-              </div>
-              <div>
-                <p class="about__animal about__animal-2">
+        </div>
+        <div class="carousel-list-item carousel-list-item__2">
+          <img class="carousel-list-item__img" src="assets/images/pandapng.png" alt="panda" />
+          <div class="carousel-list-item__details">
+            <div class="controls">
+              <span class="fas fa-play-circle"></span>
+              <span class="fas fa-plus-circle"></span>
+            </div>
+            <div>
+              <p class="about__animal about__animal-2">
+                Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from
+                China. He loves bamboos.
+              </p>
+            </div>
+            <div class="carousel-list-item-buttons">
+              <a href="https://youtu.be/3szkFHfr6sA" target="_blank" class="button-transparent">
+                <img class="button-transparent--img" src="assets/images/play.svg" alt="icon" />
+                <p>watch online</p>
+              </a>
+              <a href="#" target="_blank" class="button-donate">
+                <img class="button-donate--img" src="assets/images/donate.svg" alt="icon" />
+                <p>donate</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-list-item carousel-list-item__3">
+          <img class="carousel-list-item__img" src="assets/images/gorillapng.png" alt="gorilla" />
+          <div class="carousel-list-item__details">
+            <div class="controls">
+              <span class="fas fa-play-circle"></span>
+              <span class="fas fa-plus-circle"></span>
+            </div>
+            <div>
+              <p class="about__animal about__animal-3">
+                Gorillas are ground-dwelling great apes that inhabit the
+                forests of equatorial Africa.
+              </p>
+            </div>
+            <div class="carousel-list-item-buttons">
+              <a href="https://youtu.be/3szkFHfr6sA" target="_blank" class="button-transparent">
+                <img class="button-transparent--img" src="assets/images/play.svg" alt="icon" />
+                <p>watch online</p>
+              </a>
+              <a href="#" target="_blank" class="button-donate">
+                <img class="button-donate--img" src="assets/images/donate.svg" alt="icon" />
+                <p>donate</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-list-item carousel-list-item__4">
+          <img class="carousel-list-item__img" src="assets/images/alligatorpng.png" alt="alligator" />
+          <div class="carousel-list-item__details">
+            <div class="controls">
+              <span class="fas fa-play-circle"></span>
+              <span class="fas fa-plus-circle"></span>
+            </div>
+            <div>
+              <p class="about__animal about__animal-4">
+                An alligator, or just gator, is a large reptile in the
+                Crocodilia of the family.
+              </p>
+            </div>
+            <div class="carousel-list-item-buttons">
+              <a href="https://youtu.be/3szkFHfr6sA" target="_blank" class="button-transparent">
+                <img class="button-transparent--img" src="assets/images/play.svg" alt="icon" />
+                <p>watch online</p>
+              </a>
+              <a href="#" target="_blank" class="button-donate">
+                <img class="button-donate--img" src="assets/images/donate.svg" alt="icon" />
+                <p>donate</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-list-item carousel-list-item__5">
+          <img class="carousel-list-item__img" src="assets/images/foxpng.png" alt="fox" />
+          <div class="carousel-list-item__details">
+            <div class="controls">
+              <span class="fas fa-play-circle"></span>
+              <span class="fas fa-plus-circle"></span>
+            </div>
+            <div>
+              <p class="about__animal about__animal-5">
+                Foxes live on every continent except Antarctica. The most
+                common of fox is the red fox.
+              </p>
+            </div>
+            <div class="carousel-list-item-buttons">
+              <a href="https://youtu.be/3szkFHfr6sA" target="_blank" class="button-transparent">
+                <img class="button-transparent--img" src="assets/images/play.svg" alt="icon" />
+                <p>watch online</p>
+              </a>
+              <a href="#" target="_blank" class="button-donate">
+                <img class="button-donate--img" src="assets/images/donate.svg" alt="icon" />
+                <p>donate</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slidecontainer slidecontainer__mainpage">
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange" />
+    </div>
+  </section>
+  <!-- Блок 1, 2 ОКОНЧАНИЕ Надежда -->
+
+  <!-- Блок 3, 4, 5 начало Екатерина -->
+  <div class="information">
+    <div class="container">
+      <h2 class="h2">How it works?</h2>
+      <p class="text">
+        As a voice for wildlife, we are devastated by the impact of the 2020
+        Australian bushfires on precious species and their habitat, and we are
+        determined to assist in all aspects, including providing veterinary
+        support and raising much-needed emergency funds. Zoo Online saves
+        wildlife and inspires everyone to make conservation a priority in
+        their lives. Animals have the right to a pain-free and happy life.
+        They have equal claim to the resources of this planet, and deserve a
+        life of dignity and compassion.As a voice for wildlife, we are
+        devastated by the impact of the 2020 Australian bushfires on precious
+        species and their habitat.
+      </p>
+      <div class="section">
+        <img class="img" src="assets/images/dears.svg" alt="animals" />
+      </div>
+      <div class="counter">
+        <p class="counter-item">02/</p>
+        <p class="counter-set">08</p>
+      </div>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider" />
+      </div>
+      <a href="https://youtu.be/3szkFHfr6sA" class="section-button" target="_blank">
+        <img class="img-button" src="assets/images/button.svg" alt="button" />
+        <p class="text-button">watch online</p>
+      </a>
+    </div>
+  </div>
+  <article class="article">
+    <div class="infocontainer">
+      <div class="infocontainer__card">
+        <div class="info-img">
+          <img src="assets/images/lamp.svg" alt="Graphic" />
+        </div>
+        <h3 class="h3">What inspires us?</h3>
+        <p class="info-text">
+          As a voice for wildlife, we are devastated by the impact of the 2020
+          Australian bushfires on precious species and their habitat, and we
+          are determined to assist in all aspects, including providing
+          veterinary support and raising much-needed emergency funds.
+        </p>
+      </div>
+      <div class="infocontainer__card">
+        <div class="info-img">
+          <img src="assets/images/flag.svg" alt="Graphic" />
+        </div>
+        <h3 class="h3">Our mission</h3>
+        <p class="info-text">
+          Zoo Online saves wildlife and inspires everyone to make conservation
+          a priority in their lives.
+        </p>
+      </div>
+      <div class="infocontainer__card">
+        <div class="info-img">
+          <img src="assets/images/heart.svg" alt="Graphic" />
+        </div>
+        <h3 class="h3">What we believe in?</h3>
+        <p class="info-text">
+          Animals have the right to a pain-free and happy life. They have
+          equal claim to the resources of this planet, and deserve a life of
+          dignity and compassion.
+        </p>
+      </div>
+    </div>
+  </article>
+  <div class="pets-animals">
+    <div class="pets-animals__container">
+      <h2 class="titles">Pets in Zoo</h2>
+      <div class="carousel">
+        <div class="carousel__interactiv">
+          <button class="arrow-left">
+            <img class="arrow" src="assets/images/left.svg" alt="left" />
+          </button>
+          <div class="carousel__gallery">
+            <div class="carousel__gallery_img">
+              <img class="panda-gallery" src="assets/images/pandab.svg " alt="Panda " />
+              <div class="pets-info">
+                <p class="about">
                   Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from
                   China. He loves bamboos.
                 </p>
-              </div>
-              <div class="carousel-list-item-buttons">
-                <a
-                  href="https://youtu.be/3szkFHfr6sA"
-                  target="_blank"
-                  class="button-transparent">
-                  <img
-                    class="button-transparent--img"
-                    src="assets/images/play.svg"
-                    alt="icon" />
-                  <p>watch online</p>
-                </a>
-                <a href="#" target="_blank" class="button-donate">
-                  <img
-                    class="button-donate--img"
-                    src="assets/images/donate.svg"
-                    alt="icon" />
-                  <p>donate</p>
-                </a>
+                <div class="pets-info__item">
+                  <a href="https://youtu.be/3szkFHfr6sA" class="button-online" target="_blank">
+                    <img class="button-online__watch" src="assets/images/button.svg" alt="" />
+                    <p class="text-img">watch online</p>
+                  </a>
+                  <a href="#" class="button-donate" target="_blank">
+                    <img class="button-donate__img" src="assets/images/donate.svg" alt="" />
+                    <p class="text-img">donate</p>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-list-item carousel-list-item__3">
-            <img
-              class="carousel-list-item__img"
-              src="assets/images/gorillapng.png"
-              alt="gorilla" />
-            <div class="carousel-list-item__details">
-              <div class="controls">
-                <span class="fas fa-play-circle"></span>
-                <span class="fas fa-plus-circle"></span>
-              </div>
-              <div>
-                <p class="about__animal about__animal-3">
-                  Gorillas are ground-dwelling great apes that inhabit the
-                  forests of equatorial Africa.
+            <div class="carousel__gallery_img">
+              <img class="eagle-gallery" src="assets/images/eaglesb.svg " alt="Eagle " />
+              <div class="pets-info">
+                <p class="about">
+                  Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from
+                  China. He loves bamboos.
                 </p>
-              </div>
-              <div class="carousel-list-item-buttons">
-                <a
-                  href="https://youtu.be/3szkFHfr6sA"
-                  target="_blank"
-                  class="button-transparent">
-                  <img
-                    class="button-transparent--img"
-                    src="assets/images/play.svg"
-                    alt="icon" />
-                  <p>watch online</p>
-                </a>
-                <a href="#" target="_blank" class="button-donate">
-                  <img
-                    class="button-donate--img"
-                    src="assets/images/donate.svg"
-                    alt="icon" />
-                  <p>donate</p>
-                </a>
+                <div class="pets-info__item">
+                  <a href="https://www.youtube.com/watch?v=YgnOZ0zUKtk" class="button-online" target="_blank">
+                    <img class="button-online__watch" src="assets/images/button.svg" alt="" />
+                    <p class="text-img">watch online</p>
+                  </a>
+                  <a href="#" class="button-donate" target="_blank">
+                    <img class="button-donate__img" src="assets/images/donate.svg" alt="" />
+                    <p class="text-img">donate</p>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-list-item carousel-list-item__4">
-            <img
-              class="carousel-list-item__img"
-              src="assets/images/alligatorpng.png"
-              alt="alligator" />
-            <div class="carousel-list-item__details">
-              <div class="controls">
-                <span class="fas fa-play-circle"></span>
-                <span class="fas fa-plus-circle"></span>
-              </div>
-              <div>
-                <p class="about__animal about__animal-4">
-                  An alligator, or just gator, is a large reptile in the
-                  Crocodilia of the family.
+            <div class="carousel__gallery_img">
+              <img class="gorilla-gallery" src="assets/images/gorillab.svg " alt="Gorilla " />
+              <div class="pets-info">
+                <p class="about">
+                  Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from
+                  China. He loves bamboos.
                 </p>
-              </div>
-              <div class="carousel-list-item-buttons">
-                <a
-                  href="https://youtu.be/3szkFHfr6sA"
-                  target="_blank"
-                  class="button-transparent">
-                  <img
-                    class="button-transparent--img"
-                    src="assets/images/play.svg"
-                    alt="icon" />
-                  <p>watch online</p>
-                </a>
-                <a href="#" target="_blank" class="button-donate">
-                  <img
-                    class="button-donate--img"
-                    src="assets/images/donate.svg"
-                    alt="icon" />
-                  <p>donate</p>
-                </a>
+                <div class="pets-info__item">
+                  <a href="https://www.youtube.com/watch?v=yfSyjwY6zSQ" class="button-online" target="_blank">
+                    <img class="button-online__watch" src="assets/images/button.svg" alt="" />
+                    <p class="text-img">watch online</p>
+                  </a>
+                  <a href="#" class="button-donate" target="_blank">
+                    <img class="button-donate__img" src="assets/images/donate.svg" alt="" />
+                    <p class="text-img">donate</p>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-list-item carousel-list-item__5">
-            <img
-              class="carousel-list-item__img"
-              src="assets/images/foxpng.png"
-              alt="fox" />
-            <div class="carousel-list-item__details">
-              <div class="controls">
-                <span class="fas fa-play-circle"></span>
-                <span class="fas fa-plus-circle"></span>
-              </div>
-              <div>
-                <p class="about__animal about__animal-5">
-                  Foxes live on every continent except Antarctica. The most
-                  common of fox is the red fox.
+            <div class="carousel__gallery_img">
+              <img class="alligator-gallery" src="assets/images/alligatorb.svg " alt="Alligator " />
+              <div class="pets-info">
+                <p class="about">
+                  Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from
+                  China. He loves bamboos.
                 </p>
-              </div>
-              <div class="carousel-list-item-buttons">
-                <a
-                  href="https://youtu.be/3szkFHfr6sA"
-                  target="_blank"
-                  class="button-transparent">
-                  <img
-                    class="button-transparent--img"
-                    src="assets/images/play.svg"
-                    alt="icon" />
-                  <p>watch online</p>
-                </a>
-                <a href="#" target="_blank" class="button-donate">
-                  <img
-                    class="button-donate--img"
-                    src="assets/images/donate.svg"
-                    alt="icon" />
-                  <p>donate</p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="slidecontainer slidecontainer__mainpage">
-        <input
-          type="range"
-          min="1"
-          max="100"
-          value="50"
-          class="slider"
-          id="myRange" />
-      </div>
-    </section>
-    <!-- Блок 1, 2 ОКОНЧАНИЕ Надежда -->
-
-    <!-- Блок 3, 4, 5 начало Екатерина -->
-    <div class="information">
-      <div class="container">
-        <h2 class="h2">How it works?</h2>
-        <p class="text">
-          As a voice for wildlife, we are devastated by the impact of the 2020
-          Australian bushfires on precious species and their habitat, and we are
-          determined to assist in all aspects, including providing veterinary
-          support and raising much-needed emergency funds. Zoo Online saves
-          wildlife and inspires everyone to make conservation a priority in
-          their lives. Animals have the right to a pain-free and happy life.
-          They have equal claim to the resources of this planet, and deserve a
-          life of dignity and compassion.As a voice for wildlife, we are
-          devastated by the impact of the 2020 Australian bushfires on precious
-          species and their habitat.
-        </p>
-        <div class="section">
-          <img class="img" src="assets/images/dears.svg" alt="animals" />
-        </div>
-        <div class="counter">
-          <p class="counter-item">02/</p>
-          <p class="counter-set">08</p>
-        </div>
-        <div class="slidecontainer">
-          <input type="range" min="1" max="100" value="50" class="slider" />
-        </div>
-        <a
-          href="https://youtu.be/3szkFHfr6sA"
-          class="section-button"
-          target="_blank">
-          <img class="img-button" src="assets/images/button.svg" alt="button" />
-          <p class="text-button">watch online</p>
-        </a>
-      </div>
-    </div>
-    <article class="article">
-      <div class="infocontainer">
-        <div class="infocontainer__card">
-          <div class="info-img">
-            <img src="assets/images/lamp.svg" alt="Graphic" />
-          </div>
-          <h3 class="h3">What inspires us?</h3>
-          <p class="info-text">
-            As a voice for wildlife, we are devastated by the impact of the 2020
-            Australian bushfires on precious species and their habitat, and we
-            are determined to assist in all aspects, including providing
-            veterinary support and raising much-needed emergency funds.
-          </p>
-        </div>
-        <div class="infocontainer__card">
-          <div class="info-img">
-            <img src="assets/images/flag.svg" alt="Graphic" />
-          </div>
-          <h3 class="h3">Our mission</h3>
-          <p class="info-text">
-            Zoo Online saves wildlife and inspires everyone to make conservation
-            a priority in their lives.
-          </p>
-        </div>
-        <div class="infocontainer__card">
-          <div class="info-img">
-            <img src="assets/images/heart.svg" alt="Graphic" />
-          </div>
-          <h3 class="h3">What we believe in?</h3>
-          <p class="info-text">
-            Animals have the right to a pain-free and happy life. They have
-            equal claim to the resources of this planet, and deserve a life of
-            dignity and compassion.
-          </p>
-        </div>
-      </div>
-    </article>
-    <div class="pets-animals">
-      <div class="pets-animals__container">
-        <h2 class="titles">Pets in Zoo</h2>
-        <div class="carousel">
-          <div class="carousel__interactiv">
-            <button class="arrow-left">
-              <img class="arrow" src="assets/images/left.svg" alt="left" />
-            </button>
-            <div class="carousel__gallery">
-              <div class="carousel__gallery_img">
-                <img
-                  class="panda-gallery"
-                  src="assets/images/pandab.svg "
-                  alt="Panda " />
-                <div class="pets-info">
-                  <p class="about">
-                    Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from
-                    China. He loves bamboos.
-                  </p>
-                  <div class="pets-info__item">
-                    <a
-                      href="https://youtu.be/3szkFHfr6sA"
-                      class="button-online"
-                      target="_blank">
-                      <img
-                        class="button-online__watch"
-                        src="assets/images/button.svg"
-                        alt="" />
-                      <p class="text-img">watch online</p>
-                    </a>
-                    <a href="#" class="button-donate" target="_blank">
-                      <img
-                        class="button-donate__img"
-                        src="assets/images/donate.svg"
-                        alt="" />
-                      <p class="text-img">donate</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel__gallery_img">
-                <img
-                  class="eagle-gallery"
-                  src="assets/images/eaglesb.svg "
-                  alt="Eagle " />
-                <div class="pets-info">
-                  <p class="about">
-                    Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from
-                    China. He loves bamboos.
-                  </p>
-                  <div class="pets-info__item">
-                    <a
-                      href="https://www.youtube.com/watch?v=YgnOZ0zUKtk"
-                      class="button-online"
-                      target="_blank">
-                      <img
-                        class="button-online__watch"
-                        src="assets/images/button.svg"
-                        alt="" />
-                      <p class="text-img">watch online</p>
-                    </a>
-                    <a href="#" class="button-donate" target="_blank">
-                      <img
-                        class="button-donate__img"
-                        src="assets/images/donate.svg"
-                        alt="" />
-                      <p class="text-img">donate</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel__gallery_img">
-                <img
-                  class="gorilla-gallery"
-                  src="assets/images/gorillab.svg "
-                  alt="Gorilla " />
-                <div class="pets-info">
-                  <p class="about">
-                    Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from
-                    China. He loves bamboos.
-                  </p>
-                  <div class="pets-info__item">
-                    <a
-                      href="https://www.youtube.com/watch?v=yfSyjwY6zSQ"
-                      class="button-online"
-                      target="_blank">
-                      <img
-                        class="button-online__watch"
-                        src="assets/images/button.svg"
-                        alt="" />
-                      <p class="text-img">watch online</p>
-                    </a>
-                    <a href="#" class="button-donate" target="_blank">
-                      <img
-                        class="button-donate__img"
-                        src="assets/images/donate.svg"
-                        alt="" />
-                      <p class="text-img">donate</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel__gallery_img">
-                <img
-                  class="alligator-gallery"
-                  src="assets/images/alligatorb.svg "
-                  alt="Alligator " />
-                <div class="pets-info">
-                  <p class="about">
-                    Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from
-                    China. He loves bamboos.
-                  </p>
-                  <div class="pets-info__item">
-                    <a
-                      href="https://youtu.be/3szkFHfr6sA"
-                      class="button-online"
-                      target="_blank">
-                      <img
-                        class="button-online__watch"
-                        src="assets/images/button.svg"
-                        alt="" />
-                      <p class="text-img">watch online</p>
-                    </a>
-                    <a href="#" class="button-donate" target="_blank">
-                      <img
-                        class="button-donate__img"
-                        src="assets/images/donate.svg"
-                        alt="" />
-                      <p class="text-img">donate</p>
-                    </a>
-                  </div>
+                <div class="pets-info__item">
+                  <a href="https://youtu.be/3szkFHfr6sA" class="button-online" target="_blank">
+                    <img class="button-online__watch" src="assets/images/button.svg" alt="" />
+                    <p class="text-img">watch online</p>
+                  </a>
+                  <a href="#" class="button-donate" target="_blank">
+                    <img class="button-donate__img" src="assets/images/donate.svg" alt="" />
+                    <p class="text-img">donate</p>
+                  </a>
                 </div>
               </div>
             </div>
-            <button class="arrow-right">
-              <img class="arrow" src="assets/images/right.svg" alt="right" />
-            </button>
           </div>
-        </div>
-        <div class="counter">
-          <p class="counter-item">01/</p>
-          <p class="counter-set">08</p>
-        </div>
-        <div class="slidecontainer">
-          <input type="range" min="1" max="100" value="50" class="slider" />
-        </div>
-        <a href="#" class="pets-button" target="_blank">
-          <p class="text-button">Choose your favorite</p>
-        </a>
-      </div>
-    </div>
-    <!-- Блок 3,4,5 окончание Екатерина -->
-    <!--Блок карта начало-->
-    <section class="map-block">
-      <div class="mapcontainer">
-        <h2 class="mapcontainer__name">Map</h2>
-        <div class="mapcontainer__map">
-          <div class="loc1">
-            <img src="assets/images/placeholder1.png" alt="eagle" />
-            <span class="tooltip1"
-              ><img src="assets/images/tooltip1.svg" alt="loc"
-            /></span>
-          </div>
-          <div class="loc2">
-            <img src="assets/images/placeholder2.png" alt="crocodile" />
-            <span class="tooltip2"
-              ><img src="assets/images/tooltip2.png" alt="loc"
-            /></span>
-          </div>
-          <div class="loc3">
-            <img src="assets/images/placeholder3.png" alt="monkey" />
-            <span class="tooltip3"
-              ><img src="assets/images/tooltip3.png" alt="loc"
-            /></span>
-          </div>
-          <div class="loc4">
-            <img src="assets/images/placeholder4.png" alt="panda" />
-            <span class="tooltip4"
-              ><img src="assets/images/tooltip4.png" alt="loc"
-            /></span>
-          </div>
-        </div>
-        <a
-          href="https://www.youtube.com/live/3szkFHfr6sA?feature=share"
-          class="button"
-          target="_blank">
-          <img
-            class="img-button"
-            src="assets/images/Frame37.svg"
-            alt="button" />
-          <p class="text-button">watch online</p>
-        </a>
-      </div>
-    </section>
-    <!--блок футер начало-->
-    <footer class="footer">
-      <nav class="nav__footer">
-        <div class="nav__menu_footer">
-          <img class="footer__logo" src="assets/images/logo.svg" alt="logo" />
-          <a class="nav__menu_links menu__link-footer1" href="#" target="_blank"
-            >About</a
-          >
-          <a class="nav__menu_links menu__link-footer2" href="#" target="_blank"
-            >Zoos</a
-          >
-          <a class="nav__menu_links menu__link-footer3" href="#" target="_blank"
-            >Map</a
-          >
-          <a class="nav__menu_links menu__link-footer4" href="#" target="_blank"
-            >Design</a
-          >
-        </div>
-        <div class="nav__footer-button button-1200">
-          <button class="footer-button">
-            <a class="footer__button_links" href="#" target="_blank"
-              >DONATE FOR VOLUNTEERS</a
-            >
+          <button class="arrow-right">
+            <img class="arrow" src="assets/images/right.svg" alt="right" />
           </button>
         </div>
-      </nav>
-
-      <div class="footer__main_container">
-        <div class="footer__main-form">
-          <div class="form__title">
-            <h3 class="form__title-text">Contact Us</h3>
+      </div>
+      <div class="counter">
+        <p class="counter-item">01/</p>
+        <p class="counter-set">08</p>
+      </div>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider" />
+      </div>
+      <a href="#" class="pets-button" target="_blank">
+        <p class="text-button">Choose your favorite</p>
+      </a>
+    </div>
+  </div>
+  <!-- Блок 3,4,5 окончание Екатерина -->
+  <!--Блок 6, 7 начало Даша -->
+  <section class="pay-and-feed fl-center">
+    <h2 class="title_6-7">Pay and feed</h2>
+    <p class="subtitle_style">The opportunity to easily and naturally (but as often as possible) donate to the needs
+      of
+      animals that you like.</p>
+    <div class="fl-center fl-column">
+      <div class="circle-icon fl-center">
+        <svg width="65" height="53" viewBox="0 0 65 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M61.7478 16.0282H55.5102L53.7594 2.81791C53.5087 1.04425 51.8799 -0.199298 50.1029 0.0264574L2.82387 6.29231C1.96706 6.40722 1.19115 6.85846 0.667682 7.54657C0.141914 8.23006 -0.0876347 9.09582 0.0302565 9.94992L4.01959 40.0358C4.23152 41.656 5.61275 42.8675 7.24683 42.8663C7.38681 42.866 7.52652 42.8565 7.66527 42.8381L10.7971 42.425V49.634C10.7971 51.4302 12.2531 52.8862 14.0493 52.8862H61.7478C63.544 52.8862 65 51.4302 65 49.634V19.2804C65 17.4843 63.544 16.0282 61.7478 16.0282ZM53.3236 16.0282H44.8582L53.1773 14.9257L53.3236 16.0282ZM2.17669 9.65723C2.13861 9.37429 2.21585 9.08782 2.39133 8.86261C2.56573 8.63076 2.82577 8.47845 3.11332 8.43983L50.3837 2.17614C50.9781 2.1008 51.5234 2.51545 51.6097 3.10843L52.0379 6.33676L2.60489 12.8921L2.17669 9.65723ZM10.7971 40.2385L7.38667 40.6884C6.79315 40.7672 6.24814 40.35 6.16928 39.7565C6.16928 39.7564 6.16928 39.7562 6.16928 39.7561L3.75074 21.481L10.7971 20.5498V40.2385ZM10.9402 18.3449L3.46022 19.3314L2.89108 15.0428L52.3241 8.48644L52.6493 10.9711L52.89 12.7761L28.3589 16.0282H14.0493C12.6156 16.0308 11.3527 16.9718 10.9402 18.3449ZM62.8319 49.634C62.8319 50.2327 62.3465 50.7181 61.7478 50.7181H14.0493C13.4506 50.7181 12.9652 50.2327 12.9652 49.634V19.3129C12.9652 19.3021 12.9707 19.2912 12.9707 19.2804C12.9707 18.6817 13.456 18.1964 14.0547 18.1964H61.7478C62.3465 18.1964 62.8319 18.6817 62.8319 19.2804V49.634Z"
+            fill="url(#paint0_linear_286_696)" />
+          <path
+            d="M47.5963 32.3131C48.0321 31.9914 48.4174 31.6063 48.7389 31.1705C50.5213 33.5697 53.9111 34.0697 56.3103 32.2873C58.7094 30.5049 59.2094 27.1151 57.427 24.7159C56.4043 23.3395 54.7899 22.5291 53.0752 22.5316C51.3623 22.5363 49.7535 23.3533 48.7389 24.7333C46.9613 22.3246 43.5678 21.8131 41.1591 23.5907C38.7504 25.3683 38.2389 28.7618 40.0165 31.1705C41.7941 33.5791 45.1877 34.0907 47.5963 32.3131ZM53.0752 24.6997C54.8713 24.6997 56.3273 26.1557 56.3273 27.9518C56.3273 29.748 54.8713 31.204 53.0752 31.204C51.279 31.204 49.823 29.748 49.823 27.9518C49.823 26.1557 51.279 24.6997 53.0752 24.6997ZM44.4027 24.6997C46.1988 24.6997 47.6549 26.1557 47.6549 27.9518C47.6549 29.748 46.1988 31.204 44.4027 31.204C42.6066 31.204 41.1505 29.748 41.1505 27.9518C41.1505 26.1557 42.6066 24.6997 44.4027 24.6997Z"
+            fill="url(#paint1_linear_286_696)" />
+          <path d="M19.4699 23.6172H17.3018V25.7853H19.4699V23.6172Z" fill="url(#paint2_linear_286_696)" />
+          <path d="M34.6464 23.6172H21.6377V25.7853H34.6464V23.6172Z" fill="url(#paint3_linear_286_696)" />
+          <path d="M34.6467 27.9531H17.3018V30.1212H34.6467V27.9531Z" fill="url(#paint4_linear_286_696)" />
+          <path
+            d="M57.4119 37.709H18.3858C17.7871 37.709 17.3018 38.1944 17.3018 38.793V45.2974C17.3018 45.8961 17.7871 46.3814 18.3858 46.3814H57.4119C58.0106 46.3814 58.496 45.8961 58.496 45.2974V38.793C58.496 38.1944 58.0107 37.709 57.4119 37.709ZM56.3278 44.2133H19.4699V39.8771H56.3278V44.2133Z"
+            fill="url(#paint5_linear_286_696)" />
+          <defs>
+            <linearGradient id="paint0_linear_286_696" x1="-12.1367" y1="-2.78038e-07" x2="73.3983" y2="31.9123"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+            <linearGradient id="paint1_linear_286_696" x1="35.3089" y1="22.5312" x2="57.8516" y2="34.8636"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+            <linearGradient id="paint2_linear_286_696" x1="16.8969" y1="23.6172" x2="19.8729" y2="24.5206"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+            <linearGradient id="paint3_linear_286_696" x1="19.2087" y1="23.6172" x2="23.7257" y2="31.8442"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+            <linearGradient id="paint4_linear_286_696" x1="14.0631" y1="27.9531" x2="17.8329" y2="37.1079"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+            <linearGradient id="paint5_linear_286_696" x1="9.61003" y1="37.709" x2="29.666" y2="66.6278"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <h class="h3_6-7">You pay with a VISA card</h>
+      </div>
+      <div class="arrow__horizont"> <svg width="107" height="16" viewBox="0 0 107 16" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M106.707 8.70711C107.098 8.31658 107.098 7.68342 106.707 7.29289L100.343 0.928932C99.9526 0.538408 99.3195 0.538408 98.9289 0.928932C98.5384 1.31946 98.5384 1.95262 98.9289 2.34315L104.586 8L98.9289 13.6569C98.5384 14.0474 98.5384 14.6805 98.9289 15.0711C99.3195 15.4616 99.9526 15.4616 100.343 15.0711L106.707 8.70711ZM-3.21451e-10 9L106 9L106 7L3.21451e-10 7L-3.21451e-10 9Z"
+            fill="url(#paint0_linear_153_91)" />
+          <defs>
+            <linearGradient id="paint0_linear_153_91" x1="-19.7922" y1="8" x2="-19.6389" y2="12.9336"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="arrow__vetrical">
+        <svg width="16" height="41" viewBox="0 0 16 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7.29289 40.7071C7.68342 41.0976 8.31658 41.0976 8.70711 40.7071L15.0711 34.3431C15.4616 33.9526 15.4616 33.3195 15.0711 32.9289C14.6805 32.5384 14.0474 32.5384 13.6569 32.9289L8 38.5858L2.34315 32.9289C1.95262 32.5384 1.31946 32.5384 0.928932 32.9289C0.538408 33.3195 0.538408 33.9526 0.928932 34.3431L7.29289 40.7071ZM7 0L7 40H9L9 0L7 0Z"
+            fill="url(#paint0_linear_155_1282)" />
+          <defs>
+            <linearGradient id="paint0_linear_155_1282" x1="8" y1="-7.46875" x2="3.09486" y2="-7.06478"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="circle-icon fl-center">
+        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M8.20312 38.2031C7.55625 38.2031 7.03125 38.7281 7.03125 39.375C7.03125 40.0219 7.55625 40.5469 8.20312 40.5469C8.85 40.5469 9.375 40.0219 9.375 39.375C9.375 38.7281 8.85 38.2031 8.20312 38.2031Z"
+            fill="url(#paint0_linear_286_1295)" />
+          <path
+            d="M57.6562 54.1432V10.5445C59.1161 9.44566 60 7.70848 60 5.85938C60 2.62852 57.3715 0 54.1406 0C50.9098 0 48.2812 2.62852 48.2812 5.85938C48.2812 6.81234 48.518 7.73484 48.9451 8.55668C43.1437 5.96133 36.6686 4.60137 30 4.60137C23.3313 4.60137 16.8561 5.96133 11.0549 8.55668C11.482 7.73484 11.7188 6.81234 11.7188 5.85938C11.7188 2.62852 9.09023 0 5.85938 0C2.62852 0 0 2.62852 0 5.85938C0 7.70848 0.883945 9.44566 2.34375 10.5445V54.1431C0.849727 55.2669 0 56.9846 0 58.8281C0 59.4754 0.524648 59.9883 1.17188 59.9883H10.5382C10.5411 59.9883 10.5442 59.9886 10.5471 59.9886C11.0532 59.9886 11.5079 59.6699 11.663 59.1852L11.6636 59.1833C11.6647 59.1795 11.666 59.1757 11.6672 59.1718L22.8713 24.1484C27.5501 23.1118 32.4493 23.1118 37.1283 24.1484L48.3325 59.1718C48.3336 59.1757 48.3349 59.1795 48.3361 59.1833L48.3367 59.1853C48.489 59.6618 48.9391 59.9888 49.4525 59.9888C49.4555 59.9888 49.4585 59.9884 49.4614 59.9884H58.8281C59.4752 59.9884 60 59.4755 60 58.8282C60 56.9844 59.1499 55.2667 57.6562 54.1432ZM5.85938 2.34375C7.79789 2.34375 9.375 3.92086 9.375 5.85938C9.375 7.1107 8.70105 8.27789 7.6173 8.90496C7.08457 9.21246 6.47672 9.375 5.85938 9.375C5.24227 9.375 4.63477 9.21258 4.10215 8.90543C3.01758 8.27766 2.34375 7.11047 2.34375 5.85938C2.34375 3.92086 3.92086 2.34375 5.85938 2.34375ZM2.5432 57.6562C3.02813 56.2825 4.34004 55.3125 5.85938 55.3125C7.40074 55.3125 8.69859 56.305 9.17555 57.6562H2.5432ZM10.4718 55.217C10.148 54.8052 9.80426 54.4659 9.375 54.1432V44.0625C9.375 43.4153 8.85035 42.8906 8.20312 42.8906C7.5559 42.8906 7.03125 43.4153 7.03125 44.0625V53.0879C6.64687 53.0095 6.2543 52.9688 5.85938 52.9688C5.46445 52.9688 5.07199 53.0095 4.6875 53.088V11.5996C5.07188 11.678 5.46445 11.7188 5.85938 11.7188C6.2543 11.7188 6.64687 11.678 7.03125 11.5996V34.6875C7.03125 35.3347 7.5559 35.8594 8.20312 35.8594C8.85035 35.8594 9.375 35.3347 9.375 34.6875V30.8292C12.4806 28.1648 16.1759 26.1295 20.1804 24.8681L10.4718 55.217ZM50.625 54.1431C50.1877 54.472 49.8458 54.8132 49.5282 55.217L39.8195 24.8682C43.8239 26.1296 47.5193 28.165 50.625 30.8293V54.1431ZM50.625 19.388C49.6391 18.8202 48.6292 18.2939 47.6051 17.8159C47.0181 17.5418 46.3212 17.7957 46.0474 18.382C45.7737 18.9684 46.0271 19.6658 46.6136 19.9396C47.9866 20.5806 49.3332 21.3131 50.6249 22.121V27.8209C38.618 18.7423 21.3353 18.7777 9.375 27.8208V22.121C10.6666 21.3131 12.0134 20.5806 13.3863 19.9396C13.9727 19.6658 14.2262 18.9684 13.9525 18.382C13.6787 17.7954 12.9811 17.5421 12.3949 17.8159C11.3708 18.294 10.3608 18.8202 9.375 19.388V11.9916C21.8026 5.31199 38.1971 5.31199 50.625 11.9916V19.388ZM54.1406 2.34375C56.0791 2.34375 57.6562 3.92086 57.6562 5.85938C57.6562 7.1107 56.9823 8.27789 55.8986 8.90496C55.3658 9.21246 54.7581 9.375 54.1406 9.375C53.5236 9.375 52.9161 9.2127 52.3838 8.90555C51.2989 8.27789 50.625 7.1107 50.625 5.85938C50.625 3.92086 52.2021 2.34375 54.1406 2.34375ZM55.3125 11.5996V53.0879C54.9281 53.0095 54.5357 52.9688 54.1406 52.9688C53.7457 52.9688 53.3531 53.0095 52.9688 53.088V11.5996C53.3531 11.678 53.7456 11.7188 54.1406 11.7188C54.5355 11.7188 54.9281 11.678 55.3125 11.5996ZM50.8245 57.6562C51.3103 56.2794 52.6245 55.3125 54.1406 55.3125C55.6823 55.3125 56.9801 56.3054 57.4568 57.6562H50.8245Z"
+            fill="url(#paint1_linear_286_1295)" />
+          <path
+            d="M22.9688 16.4062H21.1104L23.7974 13.7193C24.1325 13.3841 24.2327 12.88 24.0513 12.4421C23.87 12.0043 23.4427 11.7188 22.9688 11.7188H18.2813C17.634 11.7188 17.1094 12.2434 17.1094 12.8906C17.1094 13.5379 17.634 14.0625 18.2813 14.0625H20.1396L17.4526 16.7495C17.1175 17.0846 17.0173 17.5888 17.1987 18.0266C17.3801 18.4645 17.8073 18.75 18.2814 18.75H22.9689C23.6161 18.75 24.1407 18.2254 24.1407 17.5781C24.1407 16.9309 23.616 16.4062 22.9688 16.4062Z"
+            fill="url(#paint2_linear_286_1295)" />
+          <path
+            d="M26.4844 15.2344C26.4844 17.1729 28.0615 18.75 30 18.75C31.9385 18.75 33.5156 17.1729 33.5156 15.2344C33.5156 13.2959 31.9385 11.7188 30 11.7188C28.0615 11.7188 26.4844 13.2959 26.4844 15.2344ZM30 14.0625C30.6462 14.0625 31.1719 14.5882 31.1719 15.2344C31.1719 15.8805 30.6462 16.4062 30 16.4062C29.3538 16.4062 28.8281 15.8805 28.8281 15.2344C28.8281 14.5882 29.3538 14.0625 30 14.0625Z"
+            fill="url(#paint3_linear_286_1295)" />
+          <path
+            d="M39.375 18.75C41.3135 18.75 42.8906 17.1729 42.8906 15.2344C42.8906 13.2959 41.3135 11.7188 39.375 11.7188C37.4365 11.7188 35.8594 13.2959 35.8594 15.2344C35.8594 17.1729 37.4365 18.75 39.375 18.75ZM39.375 14.0625C40.0212 14.0625 40.5469 14.5882 40.5469 15.2344C40.5469 15.8805 40.0212 16.4062 39.375 16.4062C38.7288 16.4062 38.2031 15.8805 38.2031 15.2344C38.2031 14.5882 38.7288 14.0625 39.375 14.0625Z"
+            fill="url(#paint4_linear_286_1295)" />
+          <path
+            d="M30 28.8281C29.3529 28.8281 28.8281 29.3528 28.8281 30V34.6875C28.8281 35.3347 29.3529 35.8594 30 35.8594C30.6471 35.8594 31.1719 35.3347 31.1719 34.6875V30C31.1719 29.3528 30.6471 28.8281 30 28.8281Z"
+            fill="url(#paint5_linear_286_1295)" />
+          <path
+            d="M30 40.5469C29.3529 40.5469 28.8281 41.0715 28.8281 41.7188V46.4062C28.8281 47.0535 29.3529 47.5781 30 47.5781C30.6471 47.5781 31.1719 47.0535 31.1719 46.4062V41.7188C31.1719 41.0715 30.6471 40.5469 30 40.5469Z"
+            fill="url(#paint6_linear_286_1295)" />
+          <path
+            d="M30 52.9688C29.3529 52.9688 28.8281 53.4934 28.8281 54.1406V58.8281C28.8281 59.4754 29.3529 60 30 60C30.6471 60 31.1719 59.4754 31.1719 58.8281V54.1406C31.1719 53.4934 30.6471 52.9688 30 52.9688Z"
+            fill="url(#paint7_linear_286_1295)" />
+          <defs>
+            <linearGradient id="paint0_linear_286_1295" x1="6.59363" y1="38.2031" x2="9.81069" y2="39.1797"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+            <linearGradient id="paint1_linear_286_1295" x1="-11.2031" y1="-3.15378e-07" x2="71.151" y2="25.004"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+            <linearGradient id="paint2_linear_286_1295" x1="15.7965" y1="11.7187" x2="25.4478" y2="14.6485"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+            <linearGradient id="paint3_linear_286_1295" x1="25.1715" y1="11.7187" x2="34.8227" y2="14.6484"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+            <linearGradient id="paint4_linear_286_1295" x1="34.5465" y1="11.7187" x2="44.1977" y2="14.6484"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+            <linearGradient id="paint5_linear_286_1295" x1="28.3905" y1="28.8281" x2="31.8684" y2="29.18"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+            <linearGradient id="paint6_linear_286_1295" x1="28.3905" y1="40.5469" x2="31.8684" y2="40.8988"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+            <linearGradient id="paint7_linear_286_1295" x1="28.3905" y1="52.9687" x2="31.8684" y2="53.3207"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <h3 class="h3_6-7">Payment goes to the Zoo</h3>
+      </div>
+      <div class="arrow__horizont"> <svg width="107" height="16" viewBox="0 0 107 16" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M106.707 8.70711C107.098 8.31658 107.098 7.68342 106.707 7.29289L100.343 0.928932C99.9526 0.538408 99.3195 0.538408 98.9289 0.928932C98.5384 1.31946 98.5384 1.95262 98.9289 2.34315L104.586 8L98.9289 13.6569C98.5384 14.0474 98.5384 14.6805 98.9289 15.0711C99.3195 15.4616 99.9526 15.4616 100.343 15.0711L106.707 8.70711ZM-3.21451e-10 9L106 9L106 7L3.21451e-10 7L-3.21451e-10 9Z"
+            fill="url(#paint0_linear_153_91)" />
+          <defs>
+            <linearGradient id="paint0_linear_153_91" x1="-19.7922" y1="8" x2="-19.6389" y2="12.9336"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="arrow__vetrical">
+        <svg width="16" height="41" viewBox="0 0 16 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7.29289 40.7071C7.68342 41.0976 8.31658 41.0976 8.70711 40.7071L15.0711 34.3431C15.4616 33.9526 15.4616 33.3195 15.0711 32.9289C14.6805 32.5384 14.0474 32.5384 13.6569 32.9289L8 38.5858L2.34315 32.9289C1.95262 32.5384 1.31946 32.5384 0.928932 32.9289C0.538408 33.3195 0.538408 33.9526 0.928932 34.3431L7.29289 40.7071ZM7 0L7 40H9L9 0L7 0Z"
+            fill="url(#paint0_linear_155_1282)" />
+          <defs>
+            <linearGradient id="paint0_linear_155_1282" x1="8" y1="-7.46875" x2="3.09486" y2="-7.06478"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="circle-icon fl-center">
+        <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M2.25669 48.2315C2.25669 48.8425 1.76133 49.3379 1.15032 49.3379C0.539305 49.3379 0.0439453 48.8425 0.0439453 48.2315C0.0439453 47.6205 0.539305 47.1251 1.15032 47.1251C1.76133 47.1251 2.25669 47.6205 2.25669 48.2315ZM41.0298 30.1017C39.4871 31.2606 37.6519 31.873 35.7224 31.873C35.1001 31.873 34.525 31.6665 34.0623 31.3183C33.5996 31.6665 33.0246 31.873 32.4023 31.873C30.3979 31.873 28.5059 31.2169 26.9309 29.9757C26.4509 29.5973 26.3684 28.9015 26.7467 28.4214C27.1249 27.9415 27.8207 27.8588 28.3008 28.2372C29.4817 29.1678 30.8998 29.6596 32.4023 29.6596C32.7074 29.6596 32.9556 29.4114 32.9556 29.1063V27.3061C31.0485 26.8134 29.6355 25.0783 29.6355 23.0194C29.6355 21.7989 30.6284 20.806 31.8489 20.806H36.2757C37.4962 20.806 38.4891 21.7989 38.4891 23.0194C38.4891 25.0783 37.0762 26.8134 35.169 27.3061V29.1063C35.169 29.4114 35.4172 29.6596 35.7224 29.6596C37.1686 29.6596 38.5442 29.2006 39.7004 28.3321C40.1891 27.9648 40.8829 28.0635 41.2499 28.5522C41.617 29.041 41.5185 29.7348 41.0298 30.1017ZM34.0623 25.2328C35.2828 25.2328 36.2757 24.2399 36.2757 23.0194H31.8489C31.8489 24.2399 32.8418 25.2328 34.0623 25.2328ZM30.2433 16.8136L28.6067 19.6482C27.0258 22.2518 24.027 22.5838 21.9963 21.4194C19.9846 20.2659 19.2975 17.6829 20.457 15.6747L21.9829 13.0317C23.3474 10.6682 26.3807 9.85529 28.7445 11.22C30.6998 12.3489 31.3721 14.8581 30.2433 16.8136ZM26.6899 18.5415L27.368 17.3669H26.5084C25.0348 17.3669 25.0348 15.1535 26.5084 15.1535H28.5371C28.6994 14.379 28.3659 13.5417 27.6377 13.1368C26.2975 12.3915 24.6624 12.827 23.8996 14.1385L22.3737 16.7814C21.8245 17.7327 22.1549 18.9477 23.1029 19.5026C24.6161 20.3883 26.2065 19.4672 26.6899 18.5415ZM46.1282 21.4194C43.9476 22.6588 41.0166 22.1555 39.5178 19.6482L37.8812 16.8136C36.7523 14.8581 37.4247 12.3489 39.38 11.22C41.7439 9.85529 44.7771 10.6682 46.1416 13.0317L47.6675 15.6747C48.827 17.6829 48.1443 20.2736 46.1282 21.4194ZM45.7507 16.7814L44.2248 14.1385C43.4704 12.8318 41.7935 12.3824 40.4867 13.1368C39.7651 13.5533 39.4249 14.379 39.5873 15.1535H41.616C43.0896 15.1535 43.0896 17.3669 41.616 17.3669H40.7564L41.4345 18.5415C41.9875 19.5423 43.5262 20.3455 45.0214 19.5026C45.9785 18.9632 46.3 17.7326 45.7507 16.7814ZM52.821 15.7317C54.8663 20.0136 54.6872 24.9307 52.2801 29.1C51.8048 29.923 51.2603 30.6848 50.6571 31.3814C52.5541 38.375 52.6881 45.7639 51.0393 52.7922C50.5659 54.8108 48.7923 56.2205 46.7262 56.2205H44.2949C40.6438 56.2205 37.0732 55.3897 33.8393 53.8251C33.0008 54.911 31.404 56.2205 29.0202 56.2205H8.22967C6.07702 56.2205 3.77442 55.3404 2.13727 53.4991C1.73211 53.0434 1.77372 52.3492 2.22249 51.9364C2.69981 51.4973 3.4102 51.6026 3.78515 52.0216C4.91609 53.2853 6.53973 54.0071 8.23188 54.0071H10.4924C8.52283 51.3832 7.76142 47.9596 8.60074 44.7162C10.0445 39.1371 14.6117 36.8598 17.9082 36.3865C16.3576 33.1758 15.1988 29.7752 14.4766 26.2614C8.10771 29.9337 3.80441 36.1236 2.58327 43.4524C2.49363 43.9892 1.99296 44.4609 1.30946 44.3632C0.734859 44.281 0.293507 43.7135 0.39975 43.0893C2.2351 32.3069 9.41528 26.4556 14.0484 23.9619C13.6397 21.1912 14.0559 18.3435 15.3035 15.7317C13.2117 14.1404 11.948 11.6395 11.948 8.98011C11.948 4.30585 15.7507 0.502996 20.425 0.502996C22.3066 0.502996 24.1086 1.1212 25.5846 2.25712C28.1001 0.796162 31.0007 0 34.0623 0C37.124 0 40.0247 0.796051 42.54 2.25712C44.016 1.12131 45.818 0.503107 47.6995 0.503107C52.3738 0.503107 56.1765 4.30585 56.1765 8.98022C56.1765 11.6394 54.9128 14.1404 52.821 15.7317ZM16.3857 13.7631L19.4667 8.42676C20.5656 6.52334 21.9797 4.89826 23.6228 3.59623C22.6628 3.02395 21.5639 2.7164 20.4252 2.7164C16.9714 2.7164 14.1616 5.52632 14.1616 8.98011C14.1615 10.8338 14.9932 12.5833 16.3857 13.7631ZM31.8569 52.7473C30.6811 52.0348 29.5616 51.2196 28.5137 50.3047C24.661 46.9404 21.454 42.9389 19.0129 38.5216C15.1145 38.6641 11.696 41.4112 10.7496 45.2464C9.96088 48.4425 11.0349 51.8382 13.4899 54.0071H29.0212C30.1237 54.0071 31.1426 53.541 31.8569 52.7473ZM44.2949 54.0071C45.2275 54.0071 45.5726 53.0492 45.3065 52.4492C42.5875 46.3173 38.6473 40.8609 33.6599 36.2998H28.3149C24.652 36.2998 21.2595 34.9657 18.663 32.6054C21.0777 38.7274 24.9473 44.2519 29.9697 48.6376C33.935 52.1002 39.0224 54.0071 44.2949 54.0071ZM48.8245 33.1515C46.3214 35.1704 43.1799 36.2998 39.8096 36.2998H36.8609C37.9841 37.4251 39.0495 38.596 40.0558 39.811C40.084 39.655 40.1133 39.4994 40.1445 39.3443C40.2654 38.7451 40.8493 38.3572 41.4481 38.4782C42.0473 38.599 42.4351 39.1826 42.3142 39.7817C42.1488 40.6022 42.0331 41.4349 41.9633 42.2635C44.0649 45.1454 45.8583 48.2471 47.3285 51.5489C47.6612 52.2962 47.7025 53.1217 47.4669 53.8802C48.163 53.6336 48.7063 53.0459 48.8844 52.2867C50.3563 46.0127 50.3307 39.4355 48.8245 33.1515ZM50.3633 15.8071L46.7411 9.53346C44.0947 4.94995 39.355 2.2134 34.0623 2.2134C28.7696 2.2134 24.0298 4.94995 21.3835 9.53358L17.7614 15.8072C15.5586 19.6226 15.5586 24.1782 17.7614 27.9935C19.9641 31.8086 23.9093 34.0864 28.3149 34.0864H39.8096C44.2152 34.0864 48.1605 31.8086 50.3631 27.9933C52.5659 24.1781 52.5659 19.6225 50.3633 15.8071ZM53.9631 8.98022C53.9631 5.52643 51.1533 2.71651 47.6995 2.71651C46.561 2.71651 45.462 3.02406 44.5021 3.59623C46.1451 4.89826 47.559 6.52323 48.6579 8.42676L51.7389 13.7631C53.1313 12.5834 53.9631 10.8338 53.9631 8.98022Z"
+            fill="url(#paint0_linear_286_391)" />
+          <defs>
+            <linearGradient id="paint0_linear_286_391" x1="-10.4371" y1="-2.95567e-07" x2="66.6315" y2="23.3583"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5" />
+              <stop offset="1" stop-color="#49D6DF" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <h3 class="h3_6-7">Panda gets the bamboo</h3>
+      </div>
+    </div>
+    <div>
+      <a class="button_6-7 fl-center" href="#">
+        <p class="text-button_6-7">DONATE</p>
+      </a>
+    </div>
+  </section>
+  <section class="testimonials fl-center">
+    <h2 class="title_6-7">Testimonials</h2>
+    <div class="fl-center testimonials">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner fl-center">
+          <div class="carousel-item active personal-testimonials mx-auto">
+            <div class="personal-testimonials fl-center">
+              <img src="assets/images/Vlad.png" alt="man">
+              <h3 class="h3_6-7">Vlad Kim</h3>
+              <p class="txt-style_6-7">As a voice for wildlife, we are devastated by the impact of the 2020
+                Australian
+                bushfires on precious species and their habitat.</p>
+            </div>
           </div>
-
-          <form class="footer__form">
-            <div class="form__name">
-              <input
-                class="form__name-input"
-                type="text"
-                name="name"
-                placeholder="Name" />
+          <div class="carousel-item personal-testimonials">
+            <div class="personal-testimonials fl-center">
+              <img src="assets/images/Katya.png" alt="woman">
+              <h3 class="h3_6-7">Katya Novikova</h3>
+              <p class="txt-style_6-7">As a voice for wildlife, we are devastated by the impact of the 2020
+                Australian
+                bushfires on precious species and their habitat.</p>
             </div>
-
-            <div class="form__mail">
-              <input
-                class="form__mail-input"
-                type="text"
-                name="email"
-                placeholder="Email" />
-            </div>
-
-            <div class="form__message">
-              <label class="form__label" for="text"
-                >Please enter your message</label
-              >
-              <textarea
-                class="form__message-input"
-                name="message"
-                placeholder=""></textarea>
-            </div>
-
-            <div class="footer__checkbox">
-              <input
-                type="checkbox"
-                class="footer__checkbox-input"
-                id="footer__checkbox"
-                name="footer__checkbox"
-                value="yes" />
-              <label for="footer__checkbox"
-                >I agree to the processing of Personal Data</label
-              >
-            </div>
-
-            <div class="footer-form__button">
-              <button class="form__button">
-                <a class="arrow" href="#link"
-                  >SEND
-                  <svg
-                    class="arrow-icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="50"
-                    height="32"
-                    viewBox="0 0 32 32">
-                    <g
-                      fill="none"
-                      stroke="#4BD8B5"
-                      stroke-width="1.5"
-                      stroke-linejoin="round"
-                      stroke-miterlimit="10">
-                      <circle
-                        class="arrow-iconcircle"
-                        cx="16"
-                        cy="16"
-                        r="15.12"></circle>
-                      <path
-                        class="arrow-icon--arrow"
-                        d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
-                    </g>
-                  </svg>
-                </a>
-              </button>
-            </div>
-          </form>
-        </div>
-
-        <div class="footer__contacts">
-          <h3 class="footer__contacts-title">ZOO ONLINE CENTRE</h3>
-          <p class="footer__contacts-adress">
-            132, Address District, Street <br />
-            Open Daily 10:00 am - 5:00 pm
-          </p>
-          <p class="footer__contacts-phone">
-            T(702) 163-3433 <br />
-            <a
-              class="footer__contacts-mail"
-              href="mailto:zoo.online@gmail.com"
-              target="_blank"
-              >zoo.online@gmail.com
-            </a>
-          </p>
-          <div class="social__mainpage">
-            <ul class="social-icons__footer social-icons">
-              <li>
-                <a
-                  class="social-icon-instagram"
-                  href="№"
-                  target="_blank"
-                  rel="noopener">
-                  <img src="assets/images/instagram1.svg" alt="icon" />
-                </a>
-              </li>
-              <li>
-                <a
-                  class="social-icon-twitter"
-                  href="#"
-                  target="_blank"
-                  rel="noopener"
-                  ><img src="assets/images/twitter.svg" alt="icon"
-                /></a>
-              </li>
-              <li>
-                <a
-                  class="social-icon-youtube"
-                  href="#"
-                  target="_blank"
-                  rel="noopener"
-                  ><img src="assets/images/youtube.svg" alt="icon"
-                /></a>
-              </li>
-              <li>
-                <a
-                  class="social-icon-vk"
-                  href="#"
-                  target="_blank"
-                  rel="noopener"
-                  ><img src="assets/images/vk.svg" alt="icon"
-                /></a>
-              </li>
-            </ul>
           </div>
+          <div class="carousel-item personal-testimonials">
+            <div class="personal-testimonials fl-center">
+              <img src="assets/images/Nastya.png" alt="woman">
+              <h3 class="h3_6-7">Nastya Sidorova</h3>
+              <p class="txt-style_6-7">As a voice for wildlife, we are devastated by the impact of the
+                2020
+                Australian
+                bushfires on precious species and their habitat.</p>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
-      <div class="nav__footer-button button-mobile">
+      <div>
+        <a class="button_6-7 fl-center" href="#">
+          <p class="text-button_6-7">LEAVE FEEDBACK</p>
+        </a>
+      </div>
+  </section>
+  <!--Блок Даша окончание-->
+
+  <!--Блок карта начало-->
+  <section class="map-block">
+    <div class="mapcontainer">
+      <h2 class="mapcontainer__name">Map</h2>
+      <div class="mapcontainer__map">
+        <div class="loc1">
+          <img src="assets/images/placeholder1.png" alt="eagle" />
+          <span class="tooltip1"><img src="assets/images/tooltip1.svg" alt="loc" /></span>
+        </div>
+        <div class="loc2">
+          <img src="assets/images/placeholder2.png" alt="crocodile" />
+          <span class="tooltip2"><img src="assets/images/tooltip2.png" alt="loc" /></span>
+        </div>
+        <div class="loc3">
+          <img src="assets/images/placeholder3.png" alt="monkey" />
+          <span class="tooltip3"><img src="assets/images/tooltip3.png" alt="loc" /></span>
+        </div>
+        <div class="loc4">
+          <img src="assets/images/placeholder4.png" alt="panda" />
+          <span class="tooltip4"><img src="assets/images/tooltip4.png" alt="loc" /></span>
+        </div>
+      </div>
+      <a href="https://www.youtube.com/live/3szkFHfr6sA?feature=share" class="button" target="_blank">
+        <img class="img-button" src="assets/images/Frame37.svg" alt="button" />
+        <p class="text-button">watch online</p>
+      </a>
+    </div>
+  </section>
+  <!--блок футер начало-->
+  <footer class="footer">
+    <nav class="nav__footer">
+      <div class="nav__menu_footer">
+        <img class="footer__logo" src="assets/images/logo.svg" alt="logo" />
+        <a class="nav__menu_links menu__link-footer1" href="#" target="_blank">About</a>
+        <a class="nav__menu_links menu__link-footer2" href="#" target="_blank">Zoos</a>
+        <a class="nav__menu_links menu__link-footer3" href="#" target="_blank">Map</a>
+        <a class="nav__menu_links menu__link-footer4" href="#" target="_blank">Design</a>
+      </div>
+      <div class="nav__footer-button button-1200">
         <button class="footer-button">
-          <a class="footer__button_links" href="#" target="_blank"
-            >DONATE FOR VOLUNTEERS</a
-          >
+          <a class="footer__button_links" href="#" target="_blank">DONATE FOR VOLUNTEERS</a>
         </button>
       </div>
+    </nav>
 
-      <div class="footer__line">
-        <p class="footer__line-text">
-          ©Noora Sagnayeva <br />
-          ©RSSchool and ©Yem Digital 2021
-        </p>
+    <div class="footer__main_container">
+      <div class="footer__main-form">
+        <div class="form__title">
+          <h3 class="form__title-text">Contact Us</h3>
+        </div>
+
+        <form class="footer__form">
+          <div class="form__name">
+            <input class="form__name-input" type="text" name="name" placeholder="Name" />
+          </div>
+
+          <div class="form__mail">
+            <input class="form__mail-input" type="text" name="email" placeholder="Email" />
+          </div>
+
+          <div class="form__message">
+            <label class="form__label" for="text">Please enter your message</label>
+            <textarea class="form__message-input" name="message" placeholder=""></textarea>
+          </div>
+
+          <div class="footer__checkbox">
+            <input type="checkbox" class="footer__checkbox-input" id="footer__checkbox" name="footer__checkbox"
+              value="yes" />
+            <label for="footer__checkbox">I agree to the processing of Personal Data</label>
+          </div>
+
+          <div class="footer-form__button">
+            <button class="form__button">
+              <a class="arrow" href="#link">SEND
+                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="50" height="32" viewBox="0 0 32 32">
+                  <g fill="none" stroke="#4BD8B5" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+                    <circle class="arrow-iconcircle" cx="16" cy="16" r="15.12"></circle>
+                    <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                  </g>
+                </svg>
+              </a>
+            </button>
+          </div>
+        </form>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"></script>
-  </body>
+
+      <div class="footer__contacts">
+        <h3 class="footer__contacts-title">ZOO ONLINE CENTRE</h3>
+        <p class="footer__contacts-adress">
+          132, Address District, Street <br />
+          Open Daily 10:00 am - 5:00 pm
+        </p>
+        <p class="footer__contacts-phone">
+          T(702) 163-3433 <br />
+          <a class="footer__contacts-mail" href="mailto:zoo.online@gmail.com" target="_blank">zoo.online@gmail.com
+          </a>
+        </p>
+        <div class="social__mainpage">
+          <ul class="social-icons__footer social-icons">
+            <li>
+              <a class="social-icon-instagram" href="№" target="_blank" rel="noopener">
+                <img src="assets/images/instagram1.svg" alt="icon" />
+              </a>
+            </li>
+            <li>
+              <a class="social-icon-twitter" href="#" target="_blank" rel="noopener"><img
+                  src="assets/images/twitter.svg" alt="icon" /></a>
+            </li>
+            <li>
+              <a class="social-icon-youtube" href="#" target="_blank" rel="noopener"><img
+                  src="assets/images/youtube.svg" alt="icon" /></a>
+            </li>
+            <li>
+              <a class="social-icon-vk" href="#" target="_blank" rel="noopener"><img src="assets/images/vk.svg"
+                  alt="icon" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="nav__footer-button button-mobile">
+      <button class="footer-button">
+        <a class="footer__button_links" href="#" target="_blank">DONATE FOR VOLUNTEERS</a>
+      </button>
+    </div>
+
+    <div class="footer__line">
+      <p class="footer__line-text">
+        ©Noora Sagnayeva <br />
+        ©RSSchool and ©Yem Digital 2021
+      </p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
