@@ -94,11 +94,11 @@ input[type="checkbox"] {
   transition: 0.3s;
 }
 
-input:checked+.nav__label {
+input:checked + .nav__label {
   background: rgba(79, 79, 79, 1);
 }
 
-input:checked+.nav__label:after {
+input:checked + .nav__label:after {
   left: calc(100% - 5px);
   transform: translateX(-100%);
 }
@@ -164,7 +164,7 @@ input:checked+.nav__label:after {
   position: relative;
 }
 
-.carousel-list-item:hover~.carousel-list-item {
+.carousel-list-item:hover ~ .carousel-list-item {
   -webkit-transform: translate3d(120px, 0, 0);
   transform: translate3d(180px, 0, 0);
 }
@@ -187,14 +187,18 @@ input:checked+.nav__label:after {
 }
 
 .carousel-list-item__details {
-  background: -webkit-gradient(linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.9)),
-      to(rgba(0, 0, 0, 0)));
-  background: linear-gradient(to top,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(0, 0, 0, 0) 100%);
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(0, 0, 0, 0.9)),
+    to(rgba(0, 0, 0, 0))
+  );
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   opacity: 0;
   -webkit-transition: 450ms opacity;
   transition: 450ms opacity;
@@ -812,6 +816,7 @@ input:checked+.nav__label:after {
 
 .text,
 .info-text {
+  margin-bottom: 0;
   padding-top: 30px;
   font-family: "Roboto";
   font-style: normal;
