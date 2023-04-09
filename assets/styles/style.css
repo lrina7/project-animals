@@ -1269,6 +1269,260 @@ input:checked+.nav__label:after {
 }
 
 /* 3-5 блоки окончание Екатерина */
+
+/* Стили блоки 6-7 Даша НАЧАЛО*/
+.title_6-7,
+.subtitle_style,
+.h3_6-7 {
+  font-family: 'Roboto';
+  font-style: normal;
+  text-align: center;
+}
+
+.title_6-7,
+.h3_6-7 {
+  color: #FEFEFE;
+}
+
+.txt-style_6-7,
+.subtitle_style {
+  color: #F2F2F2;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.txt-style_6-7 {
+  text-align: left;
+}
+
+.subtitle_style {
+  text-align: center;
+}
+
+.h3_6-7 {
+  width: 136px;
+  height: 46px;
+  left: 55px;
+  top: 141px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.button_6-7 {
+  width: 245px;
+  height: 55px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(#4BD8B5, #49D6Df);
+  border: none;
+  border-radius: 3px;
+}
+
+.text-button_6-7 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.circle-icon {
+  flex-direction: column;
+  border: 2px solid;
+  width: 245px;
+  height: 245px;
+  border-radius: 50%;
+  border-color: #49D6Df;
+  margin: 0 60px;
+}
+
+.fl-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pay-and-feed {
+  background-color: #4F4F4F;
+  flex-direction: column;
+}
+
+.testimonials {
+  background-color: #333333;
+  flex-direction: column;
+}
+
+.personal-testimonials {
+  background-color: #3C3C3C;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 639px) {
+  .title_6-7 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .subtitle_style {
+    display: none;
+  }
+
+  .txt-style_6-7 {
+    width: 272px;
+    height: 48px;
+  }
+
+  .fl-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .arrow__horizont {
+    display: none;
+  }
+
+  .arrow__vetrical {
+    margin: 30px;
+  }
+
+  .button_6-7 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .personal-testimonials {
+    width: 300px;
+    height: 363px;
+  }
+
+  .personal-testimonials p {
+    width: 272px;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1199px) {
+  .title_6-7 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+  }
+
+  .subtitle_style {
+    width: 538px;
+    height: 32px;
+    font-weight: 500;
+  }
+
+  .txt-style_6-7 {
+    width: 272px;
+    height: 48px;
+  }
+
+  .fl-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .arrow__horizont {
+    display: none;
+  }
+
+  .arrow__vetrical {
+    margin: 30px;
+  }
+
+  .button_6-7 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .personal-testimonials {
+    width: 585px;
+    height: 310px;
+  }
+
+  .personal-testimonials p {
+    width: 440px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .title_6-7 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+
+  .subtitle_style {
+    width: 746px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+  }
+
+  .arrow__vetrical {
+    display: none;
+  }
+
+  .circle-icon {
+    margin: 0 15px;
+  }
+
+  .button_6-7 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .personal-testimonials {
+    width: 440px;
+    height: 310px;
+  }
+
+  .personal-testimonials p {
+    width: 326px;
+    height: 48px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .title_6-7 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+
+  .arrow__vetrical {
+    display: none;
+  }
+
+  .button_6-7 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .personal-testimonials {
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+/* Стили блоки 6-7 Даша ОКОНЧАНИЕ*/
+
 /* стили блока с картой начало Ирина */
 .map-block {
   background-color: #4f4f4f;
@@ -2213,255 +2467,3 @@ h2 {
 }
 
 /* Стили footer ОКОНЧАНИЕ Рушана */
-/* Стили блоки 6-7 Даша НАЧАЛО*/
-.title_6-7,
-.subtitle_style,
-.h3_6-7 {
-  font-family: 'Roboto';
-  font-style: normal;
-  text-align: center;
-}
-
-.title_6-7,
-.h3_6-7 {
-  color: #FEFEFE;
-}
-
-.txt-style_6-7,
-.subtitle_style {
-  color: #F2F2F2;
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: 400;
-}
-
-.txt-style_6-7 {
-  text-align: left;
-}
-
-.subtitle_style {
-  text-align: center;
-}
-
-.h3_6-7 {
-  width: 136px;
-  height: 46px;
-  left: 55px;
-  top: 141px;
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-}
-
-.button_6-7 {
-  width: 245px;
-  height: 55px;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 1);
-  background: linear-gradient(#4BD8B5, #49D6Df);
-  border: none;
-  border-radius: 3px;
-}
-
-.text-button_6-7 {
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 21px;
-  margin: 0;
-}
-
-.circle-icon {
-  flex-direction: column;
-  border: 2px solid;
-  width: 245px;
-  height: 245px;
-  border-radius: 50%;
-  border-color: #49D6Df;
-  margin: 0 60px;
-}
-
-.fl-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pay-and-feed {
-  background-color: #4F4F4F;
-  flex-direction: column;
-}
-
-.testimonials {
-  background-color: #333333;
-  flex-direction: column;
-}
-
-.personal-testimonials {
-  background-color: #3C3C3C;
-  flex-direction: column;
-}
-
-@media screen and (max-width: 639px) {
-  .title_6-7 {
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 42px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-  }
-
-  .subtitle_style {
-    display: none;
-  }
-
-  .txt-style_6-7 {
-    width: 272px;
-    height: 48px;
-  }
-
-  .fl-column {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .arrow__horizont {
-    display: none;
-  }
-
-  .arrow__vetrical {
-    margin: 30px;
-  }
-
-  .button_6-7 {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  .personal-testimonials {
-    width: 300px;
-    height: 363px;
-  }
-
-  .personal-testimonials p {
-    width: 272px;
-  }
-}
-
-@media screen and (min-width: 640px) and (max-width: 1199px) {
-  .title_6-7 {
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 56px;
-    margin-top: 100px;
-    margin-bottom: 15px;
-  }
-
-  .subtitle_style {
-    width: 538px;
-    height: 32px;
-    font-weight: 500;
-  }
-
-  .txt-style_6-7 {
-    width: 272px;
-    height: 48px;
-  }
-
-  .fl-column {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .arrow__horizont {
-    display: none;
-  }
-
-  .arrow__vetrical {
-    margin: 30px;
-  }
-
-  .button_6-7 {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  .personal-testimonials {
-    width: 585px;
-    height: 310px;
-  }
-
-  .personal-testimonials p {
-    width: 440px;
-  }
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1919px) {
-  .title_6-7 {
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 56px;
-    margin-top: 100px;
-    margin-bottom: 30px;
-  }
-
-  .subtitle_style {
-    width: 746px;
-    height: 16px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    margin-top: 30px;
-    margin-bottom: 90px;
-  }
-
-  .arrow__vetrical {
-    display: none;
-  }
-
-  .circle-icon {
-    margin: 0 15px;
-  }
-
-  .button_6-7 {
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-
-  .personal-testimonials {
-    width: 440px;
-    height: 310px;
-  }
-
-  .personal-testimonials p {
-    width: 326px;
-    height: 48px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  .title_6-7 {
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 56px;
-    margin-top: 100px;
-    margin-bottom: 30px;
-  }
-
-  .arrow__vetrical {
-    display: none;
-  }
-
-  .button_6-7 {
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-
-  .personal-testimonials {
-    width: 100%;
-    padding: 30px;
-  }
-}
-
-/* Стили блоки 6-7 Даша ОКОНЧАНИЕ*/
