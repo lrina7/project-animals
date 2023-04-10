@@ -1175,6 +1175,9 @@ input:checked+.nav__label:after {
     grid-template-columns: 1fr;
     max-width: 44%;
   }
+  .infocontainer__card {
+    padding-bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 999px) {
