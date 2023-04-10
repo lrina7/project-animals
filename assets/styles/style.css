@@ -944,6 +944,7 @@ input:checked+.nav__label:after {
 
 .info-img {
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .info-text {
