@@ -2473,7 +2473,11 @@ h2 {
 /*стили для 3 странички*/
 .third-page-content {
   height: 450px;
-
+  background-color: #4f4f4f;
+  overflow: hidden;
+}
+.third-page-content {
+  height: 450px;
   background-color: #4f4f4f;
   overflow: hidden;
 }
