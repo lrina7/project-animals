@@ -1178,6 +1178,9 @@ input:checked+.nav__label:after {
 }
 
 @media screen and (max-width: 999px) {
+  .container {
+    width: 90%;
+  }
   .carousel__gallery {
     flex-wrap: wrap;
     justify-content: space-around;
